@@ -4,14 +4,14 @@ import React, { useState } from 'react'
 const Home = () => {
 
 
-  return (<section className="hero is-info is-fullheight">
+  return (<section className="hero is-fullheight">
     <div className="hero-head">
       <nav className="navbar">
         <div className="container">
           <div className="navbar-brand">
-            <a className="navbar-item">
+            {/* <a className="navbar-item">
               <img src="https://bulma.io/images/bulma-type-white.png" alt="Logo" />
-            </a>
+            </a> */}
             <span className="navbar-burger burger" data-target="navbarMenuHeroB">
               <span></span>
               <span></span>
@@ -29,14 +29,6 @@ const Home = () => {
               <a className="navbar-item">
                 Experience
               </a>
-              <span className="navbar-item">
-                <a className="button is-info is-inverted">
-                  <span className="icon">
-                    <i className="fab fa-github"></i>
-                  </span>
-                  <span>Download</span>
-                </a>
-              </span>
             </div>
           </div>
         </div>
@@ -46,7 +38,8 @@ const Home = () => {
     <div className="hero-body">
       <div className="container has-text-centered">
         <p className="title">
-          Reggie Tachie-Menson
+          {/* Bold and enlarge first name */}
+          <span>Reggie</span> Tachie-Menson
         </p>
         <p className="subtitle">
           Software Engineer
