@@ -31,7 +31,7 @@ const Projects = () => {
                 <div className="content">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Phasellus nec iaculis mauris. <a>@Test</a>.
-                        <a href="#">#test</a> <a href="#">#responsive</a>
+                  <a href="#">#test</a> <a href="#">#responsive</a>
                 </div>
               </div>
             </div>
