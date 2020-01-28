@@ -19,15 +19,25 @@ const About = () => {
             <div className="tile is-parent">
               <div className="tile is-child box">
                 <h3 className="subtitle">Education</h3>
+                <ul>
+                  <li>University of Cape Town	
+                Bachelor of Arts: English and Media & Writing
+                  </li>
+                  <li>I was educated in digital media and content writing for publication.
+                General Assembly, Software Engineering Immersive
+                  </li>
+                </ul>
 
               </div>
             </div>
             <div className="tile is-parent">
               <div className="tile is-child box">
-                <h3 className="subtitle">Additional Skills</h3>
-                <p>
-                  
-                </p>
+                <h3 className="subtitle">Industry</h3>
+                <ul>
+                  <li>Financial Journalism</li>
+                  <li>Data Storage</li>
+                  <li>Online Retail</li>
+                </ul>
               </div>
             </div>
           </div>
