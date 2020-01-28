@@ -8,6 +8,7 @@ import Projects from './components/Projects'
 import Contact from './components/Contact'
 
 import 'bulma'
+import './styles/main.scss'
 
 const App = () => (
   <div>

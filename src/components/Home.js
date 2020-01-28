@@ -36,13 +36,13 @@ const Home = () => {
     </div>
 
     <div className="hero-body">
-      <div className="container has-text-centered">
-        <p className="title">
+      <div className="container">
+        <p className="title main">
           {/* Bold and enlarge first name */}
-          <span>Reggie</span> Tachie-Menson
+          <span className="first">Reggie</span> Tachie-Menson
         </p>
         <p className="subtitle">
-          Software Engineer
+          Software Developer
         </p>
       </div>
     </div>
