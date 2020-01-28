@@ -57,3 +57,14 @@
   color: black;
   transform: rotateY(180deg);
 }
+
+///svg
+
+svg {
+  position: fixed;
+  path {
+    fill: none;
+    stroke: palevioletred;
+    stroke-width: 3;
+  }
+}
