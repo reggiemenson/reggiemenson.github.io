@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
@@ -11,14 +11,14 @@ const Projects = () => {
       <div className="container">
 
         <div className="columns">
-        <div className="column">
-        <div className="tile is-ancestor">
-        <div className="tile is-parent">
-          <div className="tile is-child box">
-            <h3 className="subtitle">Content</h3>
-          </div>
-        </div>
-        </div>
+          <div className="column">
+            <div className="tile is-ancestor">
+              <div className="tile is-parent">
+                <div className="tile is-child box">
+                  <h3 className="subtitle">Content</h3>
+                </div>
+              </div>
+            </div>
         </div>
         <div className="column is-one-quarter">
             <div className="card">
