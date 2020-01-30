@@ -116,10 +116,10 @@ div.project-tile {
   height: 100%;
 }
 
-div.project-header {
-  // border-right: 0.3rem solid black;
-  border-bottom: 0.3rem solid black;
-}
+// div.project-header {
+//   // border-right: 0.3rem solid black;
+//   border-bottom: 0.3rem solid black;
+// }
 
 //-------skills---
 
@@ -129,4 +129,12 @@ div.project-header {
 
 .backend-box {
   border-right: 0.3rem solid black;
+}
+
+.skill-cat {
+  padding-bottom: 1rem;
+}
+
+.skill-icon {
+  margin: 0.2rem;
 }

@@ -9,20 +9,20 @@ const Skills = () => {
       <div className="tile is-4 is-parent is-vertical">
         <div className="tile is-child frontend-box">
 
-          <div className="columns">
-            <div className="column">
-              <div className="container">
-                <i className="fas fa-desktop"></i><i className="fas fa-tablet-alt"></i><i className="fas fa-mobile-alt"></i>
+          <div className="columns is-multiline is-centered">
+            <div className="column is-narrow">
+              <div className="container skill-cat">
+                <i className="fas fa-desktop fa-3x skill-icon"></i><i className="fas fa-tablet-alt fa-3x skill-icon"></i><i className="fas fa-mobile-alt fa-3x skill-icon"></i>
                 <div className="subtitle">Front-End</div>
               </div>
-              <div className="columns is-gapless">
+              <div className="columns is-multiline is-centered">
 
-                <div className="column">
+                <div className="column is-narrow">
                   <div>
-                    <span>HTML</span>
+                    <span>HTML5</span>
                   </div>
                   <div>
-                    <span>CSS</span>
+                    <span>CSS3</span>
                   </div>
                   <div>
                     <span>JavaScript</span>
@@ -38,7 +38,7 @@ const Skills = () => {
                   </div>
                 </div>
 
-                <div className="column">
+                <div className="column is-narrow">
                   <div>
                     <figure><i className="skills-icon devicon-html5-plain"></i></figure>
                   </div>
@@ -65,14 +65,14 @@ const Skills = () => {
       </div>
       <div className="tile is-4 is-parent is-vertical">
         <div className="tile is-child backend-box">
-          <div className="columns">
-            <div className="column">
-              <div className="container">
-                <i className="fas fa-server"></i><i className="fas fa-database"></i>
+          <div className="columns is-multiline is-centered">
+            <div className="column is-narrow">
+              <div className="container skill-cat">
+                <i className="fas fa-server fa-3x skill-icon"></i><i className="fas fa-database fa-3x skill-icon"></i>
                 <div className="subtitle">Back-End</div>
               </div>
-              <div className="columns">
-                <div className="column">
+              <div className="columns is-multiline is-centered">
+                <div className="column is-narrow">
                   <div>
                     <span>Express</span>
                   </div>
@@ -87,7 +87,7 @@ const Skills = () => {
                   </div>
                 </div>
 
-                <div className="column">
+                <div className="column is-narrow">
                   <div>
                     <figure>  <i className="skills-icon devicon-express-original"></i></figure>
                   </div>
@@ -110,14 +110,14 @@ const Skills = () => {
       </div>
       <div className="tile is-4 is-parent is-vertical">
         <div className="tile is-child">
-          <div className="columns">
-            <div className="column">
-              <div className="container">
-                <i className="fas fa-laptop"></i>
+          <div className="columns is-multiline is-centered">
+            <div className="column is-narrow">
+              <div className="container skill-cat">
+                <i className="fas fa-laptop fa-3x skill-icon"></i>
                 <div className="subtitle">Additional</div>
               </div>
-              <div className="columns">
-                <div className="column">
+              <div className="columns is-multiline is-centered">
+                <div className="column is-narrow">
                   <div>
                     <span>Github</span>
                   </div>
@@ -135,7 +135,7 @@ const Skills = () => {
                   </div>
                 </div>
 
-                <div className="column">
+                <div className="column is-narrow">
                   <div>
                     <figure><i className="skills-icon devicon-github-plain"></i></figure>
                   </div><div>
