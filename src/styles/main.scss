@@ -51,10 +51,10 @@
 ///svg
 
 svg {
-  position: fixed;
+  position: absolute;
   path {
-    fill: none;
-    stroke: palevioletred;
+    fill: black;
+    stroke: black;
     stroke-width: 3;
   }
 }
