@@ -28,7 +28,7 @@ const Projects = () => {
                 <div className="media">
                   <div className="media-left">
                     <figure className="image is-48x48">
-                      <i className="fas fa-users"></i>
+                      <img src="../images/4-user-icon.png" alt="Placeholder image" />
                     </figure>
                   </div>
                   <div className="media-content">
@@ -57,7 +57,7 @@ const Projects = () => {
                 <div className="media">
                   <div className="media-left">
                     <figure className="image is-48x48">
-                      <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image" />
+                      <i className="fas fa-users fa-2x"></i>
                     </figure>
                   </div>
                   <div className="media-content">
@@ -83,8 +83,8 @@ const Projects = () => {
               <div className="card-content">
                 <div className="media">
                   <div className="media-left">
-                    <figure className="image is-48x48">
-                      <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image" />
+                    <figure className="image is-48x48 fa-2x">
+                      <i className="fas fa-user-friends"></i>
                     </figure>
                   </div>
                   <div className="media-content">
@@ -111,7 +111,7 @@ const Projects = () => {
                 <div className="media">
                   <div className="media-left">
                     <figure className="image is-48x48">
-                      <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image" />
+                      <i className="fas fa-user fa-2x"></i>
                     </figure>
                   </div>
                   <div className="media-content">
@@ -125,7 +125,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          
+
           <div className="column">
             <div className="card">
               <div className="card-image">
@@ -137,7 +137,7 @@ const Projects = () => {
                 <div className="media">
                   <div className="media-left">
                     <figure className="image is-48x48">
-                      <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image" />
+                      <i className="fas fa-user fa-2x"></i>
                     </figure>
                   </div>
                   <div className="media-content">

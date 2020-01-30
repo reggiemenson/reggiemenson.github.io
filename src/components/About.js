@@ -7,9 +7,10 @@ const About = () => {
   return (<section className="section">
     <div className="tile is-ancestor">
       <div className="tile is-vertical">
-        <div className="tile is-parent">
-          <div className="tile is-child box">
-            <h3 className="subtitle">Bio</h3>
+        <div className="tile is-parent about tile-top">
+          <div className="tile is-child">
+            <i className="fas fa-user-circle fa-3x"></i>
+            <h3 className="subtitle">Profile</h3>
             <p>
               My work with retail websites and analytics has meant gradual exposure to code through tracking tags and web content styling. I grew to be fascinated by the logic behind JavaScript which in turn inspired my curiosity in how tech affected user solutions. I’ve looked to develop my coding ability ever since!
             </p>
@@ -18,22 +19,26 @@ const About = () => {
             </p>
           </div>
         </div>
+        <div className="horizontal"></div>
         <div className="tile">
-          <div className="tile is-parent">
-            <div className="tile is-child box">
+          <div className="tile is-parent about tile-left">
+            <div className="tile is-child">
+              <i className="fas fa-university fa-3x"></i>
               <h3 className="subtitle">Education</h3>
               <ul>
-                <li>University of Cape Town<br/>
-              Bachelor of Arts: English and Media & Writing
+                <li>University of Cape Town<br />
+                  Bachelor of Arts: English and Media & Writing
                 </li>
                 <li>
-              General Assembly, Software Engineering Immersive
+                  General Assembly, Software Engineering Immersive
                 </li>
               </ul>
             </div>
           </div>
-          <div className="tile is-parent">
-            <div className="tile is-child box">
+          {/* <div className="vertical"></div> */}
+          <div className="tile is-parent about tile-right">
+            <div className="tile is-child">
+              <i className="fas fa-building fa-3x"></i>
               <h3 className="subtitle">Industry</h3>
               <ul>
                 <li>Financial Journalism</li>
