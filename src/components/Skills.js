@@ -40,19 +40,19 @@ const Skills = () => {
 
                 <div className="column is-narrow">
                   <div>
-                    <figure><i className="skills-icon devicon-html5-plain"></i></figure>
+                    <figure><i className="skills-icon devicon-html5-plain fa-2x"></i></figure>
                   </div>
                   <div>
-                    <figure><i className="skills-icon devicon-css3-plain"></i></figure>
+                    <figure><i className="skills-icon devicon-css3-plain fa-2x"></i></figure>
                   </div>
                   <div>
-                    <figure><i className="skills-icon devicon-javascript-plain"></i></figure>
+                    <figure><i className="skills-icon devicon-javascript-plain fa-2x"></i></figure>
                   </div><div>
-                    <figure><i className="skills-icon devicon-sass-original"></i></figure>
+                    <figure><i className="skills-icon devicon-sass-original fa-2x"></i></figure>
                   </div><div>
-                    <figure><i className="skills-icon devicon-babel-plain"></i></figure>
+                    <figure><i className="skills-icon devicon-babel-plain fa-2x"></i></figure>
                   </div><div>
-                    <figure><i className="skills-icon devicon-react-original"></i></figure>
+                    <figure><i className="skills-icon devicon-react-original fa-2x"></i></figure>
                   </div>
                 </div>
 
@@ -89,16 +89,16 @@ const Skills = () => {
 
                 <div className="column is-narrow">
                   <div>
-                    <figure>  <i className="skills-icon devicon-express-original"></i></figure>
+                    <figure>  <i className="skills-icon devicon-express-original fa-2x"></i></figure>
                   </div>
                   <div>
-                    <figure><i className="skills-icon devicon-nodejs-plain"></i></figure>
+                    <figure><i className="skills-icon devicon-nodejs-plain fa-2x"></i></figure>
                   </div>
                   <div>
-                    <figure><i className="skills-icon devicon-mongodb-plain"></i></figure>
+                    <figure><i className="skills-icon devicon-mongodb-plain fa-2x"></i></figure>
                   </div>
                   <div>
-                    <figure><i className="skills-icon devicon-python-plain"></i></figure>
+                    <figure><i className="skills-icon devicon-python-plain fa-2x"></i></figure>
                   </div>
                 </div>
 
@@ -137,17 +137,17 @@ const Skills = () => {
 
                 <div className="column is-narrow">
                   <div>
-                    <figure><i className="skills-icon devicon-github-plain"></i></figure>
+                    <figure><i className="skills-icon devicon-github-plain fa-2x"></i></figure>
                   </div><div>
-                    <figure><i className="skills-icon devicon-git-plain"></i></figure>
+                    <figure><i className="skills-icon devicon-git-plain fa-2x"></i></figure>
                   </div>
                   <div>
-                    <figure><i className="skills-icon devicon-heroku-original"></i></figure>
+                    <figure><i className="skills-icon devicon-heroku-original fa-2x"></i></figure>
                   </div>
                   <div>
-                    <figure><i className="skills-icon devicon-trello-plain"></i></figure>
+                    <figure><i className="skills-icon devicon-trello-plain fa-2x"></i></figure>
                   </div><div>
-                    <figure><i className="skills-icon devicon-mocha-plain"></i></figure>
+                    <figure><i className="skills-icon devicon-mocha-plain fa-2x"></i></figure>
                   </div>
                 </div>
               </div>

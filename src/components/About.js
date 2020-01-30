@@ -40,11 +40,20 @@ const About = () => {
             <div className="tile is-child">
               <i className="fas fa-building fa-3x"></i>
               <h3 className="subtitle">Industry Experience</h3>
-              <ul>
-                <li>Financial Journalism</li>
-                <li>Data Storage</li>
-                <li>Online Retail</li>
-              </ul>
+              <div className="columns">
+                <div className="column">
+                  <i className="far fa-newspaper fa-5x"></i>
+                  <h5>Media</h5>
+                </div>
+                <div className="column">
+                  <i className="fas fa-archive fa-5x"></i>
+                  <h5>Data Storage</h5>
+                </div>
+                <div className="column">
+                  <i className="fas fa-shopping-cart fa-5x"></i>
+                  <h5>Online Retail</h5>
+                </div>
+              </div>
             </div>
           </div>
         </div>
