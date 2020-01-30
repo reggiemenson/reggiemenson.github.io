@@ -43,11 +43,11 @@ const Home = () => {
           <span className="first">Reggie</span> Tachie-Menson
         </p>
         <p className="subtitle">
-          Software Developer
+          Junior Developer
         </p>
       </div>
     </div>
-    <Image/>
+    {/* <Image/> */}
   </section>
   )
 }

@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 const About = () => {
 
 
-  return (<section className="section">
+  return (<section className="section about-section">
     <div className="tile is-ancestor">
       <div className="tile is-vertical">
         <div className="tile is-parent about tile-top">
@@ -35,11 +35,11 @@ const About = () => {
               </ul>
             </div>
           </div>
-          {/* <div className="vertical"></div> */}
+          <div className="vertical"></div>
           <div className="tile is-parent about tile-right">
             <div className="tile is-child">
               <i className="fas fa-building fa-3x"></i>
-              <h3 className="subtitle">Industry</h3>
+              <h3 className="subtitle">Industry Experience</h3>
               <ul>
                 <li>Financial Journalism</li>
                 <li>Data Storage</li>
@@ -50,6 +50,7 @@ const About = () => {
         </div>
       </div>
     </div>
+    <div className="bottom-horizontal"></div>
   </section>)
 }
 

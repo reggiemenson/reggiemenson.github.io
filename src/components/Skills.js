@@ -7,7 +7,7 @@ const Skills = () => {
   return (<section className="section">
     <div className="tile is-ancestor">
       <div className="tile is-4 is-parent is-vertical">
-        <div className="tile is-child box">
+        <div className="tile is-child frontend-box">
 
           <div className="columns">
             <div className="column">
@@ -15,7 +15,7 @@ const Skills = () => {
                 <i className="fas fa-desktop"></i><i className="fas fa-tablet-alt"></i><i className="fas fa-mobile-alt"></i>
                 <div className="subtitle">Front-End</div>
               </div>
-              <div className="columns">
+              <div className="columns is-gapless">
 
                 <div className="column">
                   <div>
@@ -64,7 +64,7 @@ const Skills = () => {
 
       </div>
       <div className="tile is-4 is-parent is-vertical">
-        <div className="tile is-child box">
+        <div className="tile is-child backend-box">
           <div className="columns">
             <div className="column">
               <div className="container">
@@ -109,11 +109,11 @@ const Skills = () => {
 
       </div>
       <div className="tile is-4 is-parent is-vertical">
-        <div className="tile is-child box">
+        <div className="tile is-child">
           <div className="columns">
             <div className="column">
               <div className="container">
-                <i className="fas fa-laptop-code"></i>
+                <i className="fas fa-laptop"></i>
                 <div className="subtitle">Additional</div>
               </div>
               <div className="columns">
@@ -157,6 +157,7 @@ const Skills = () => {
 
       </div>
     </div>
+    <div className="bottom-horizontal"></div>
   </section>)
 }
 

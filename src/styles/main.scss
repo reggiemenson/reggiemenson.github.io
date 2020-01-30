@@ -68,16 +68,21 @@ svg {
 
 //lines
 
-// .vertical { 
-//   border-left: 6px solid black; 
-//   height: 180px; 
-//   position:absolute; 
-//   left: 50%; 
-// }
+.vertical { 
+  border-left: 0.3rem solid black; 
+  height: 30vh; 
+  position:absolute; 
+  left: 50%; 
+}
 
 .horizontal {
   border-top: 0.3rem solid black;
-  margin: 0 2rem 0 2rem;
+  margin: 0 2rem 3em 2rem;
+}
+
+.bottom-horizontal {
+  border-top: 0.3rem solid black;
+  margin: 2em 2rem 0em 2rem;
 }
 
 //tiles
@@ -91,12 +96,37 @@ div.tile.is-parent.about {
 //   border-bottom: 0.3rem solid black;
 // }
 
-div.tile-left {
-  border-right: 0.3rem solid black;
-}
+// div.tile-left {
+//   border-right: 0.3rem solid black;
+// }
 
 //icons-------------/
 
 i {
   color: black;
+}
+
+// -------project-title
+
+div.project-title {
+  padding: 1em;
+}
+
+div.project-tile {
+  height: 100%;
+}
+
+div.project-header {
+  // border-right: 0.3rem solid black;
+  border-bottom: 0.3rem solid black;
+}
+
+//-------skills---
+
+.frontend-box {
+  border-right: 0.3rem solid black;
+}
+
+.backend-box {
+  border-right: 0.3rem solid black;
 }

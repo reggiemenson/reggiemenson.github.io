@@ -1,7 +1,5 @@
 import React from 'react'
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
 
 const Projects = () => {
 
@@ -12,9 +10,17 @@ const Projects = () => {
 
         <div className="columns">
           <div className="column">
-            <section className="title">
-              Projects
-            </section>
+            <div className="tile project-tile">
+              <div className="tile is-child project-header">
+                <div className="title project-title">
+                  <i className="fas fa-laptop-code"></i> Projects
+                </div>
+                <p>
+                  As part of the immersive course taken at General Assembly, I have been able to create a few projects utilising the languages and frameworks I'm familiar with.
+                </p>
+              </div>
+            </div>
+
           </div>
 
           <div className="column is-one-quarter">
