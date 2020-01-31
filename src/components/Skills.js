@@ -12,7 +12,7 @@ const Skills = () => {
           <div className="columns is-multiline is-centered">
             <div className="column is-narrow">
               <div className="container skill-cat">
-                <i className="fas fa-desktop fa-3x skill-icon"></i><i className="fas fa-tablet-alt fa-3x skill-icon"></i><i className="fas fa-mobile-alt fa-3x skill-icon"></i>
+                <i className="fas fa-desktop skill-icon"></i><i className="fas fa-tablet-alt skill-icon"></i><i className="fas fa-mobile-alt skill-icon"></i>
                 <div className="subtitle">Front-End</div>
               </div>
               <div className="columns is-multiline is-centered">
@@ -68,7 +68,7 @@ const Skills = () => {
           <div className="columns is-multiline is-centered">
             <div className="column is-narrow">
               <div className="container skill-cat">
-                <i className="fas fa-server fa-3x skill-icon"></i><i className="fas fa-database fa-3x skill-icon"></i>
+                <i className="fas fa-server skill-icon"></i><i className="fas fa-database skill-icon"></i>
                 <div className="subtitle">Back-End</div>
               </div>
               <div className="columns is-multiline is-centered">
@@ -113,7 +113,7 @@ const Skills = () => {
           <div className="columns is-multiline is-centered">
             <div className="column is-narrow">
               <div className="container skill-cat">
-                <i className="fas fa-laptop fa-3x skill-icon"></i>
+                <i className="fas fa-laptop skill-icon"></i>
                 <div className="subtitle">Additional</div>
               </div>
               <div className="columns is-multiline is-centered">
