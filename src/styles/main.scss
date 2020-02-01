@@ -67,7 +67,11 @@ svg.main-logo {
 //cards
 
 .card {
-  height: 100%;
+  height: 30em;
+}
+
+.media {
+  height: 5em;
 }
 
 //lines
@@ -141,8 +145,73 @@ div.project-tile {
 
 .skill-icon {
   margin: 0.2rem;
+  padding: 0.2rem;
 }
 
 .skill-title {
   padding-left: 2rem;
+}
+
+.tech-skills {
+  display: inline-block;
+}
+
+.tech-line {
+  display: flex;
+  justify-content: space-between;
+}
+
+i.skills-icon {
+  padding: 0 1rem;
+}
+
+div.tile.is-parent.skill-tile {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#skill {
+  padding-top: 0;
+}
+
+//-----------project----//
+
+.content.descrip {
+  font-size: 14px;
+}
+
+//-------cards-------//
+
+div.card {
+  box-shadow: none;
+  border: 0.1rem solid grey;
+  border-radius: 5px;
+}
+
+div.card-image img{
+  // padding: 0.3rem;
+  border-radius: 5px;
+}
+
+div.card-image {
+  padding: 0.3rem;
+}
+
+//---effects---------//
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  transform: scale(1.1);
 }

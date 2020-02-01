@@ -69,7 +69,7 @@ l1022 0 0 -820 0 -820 -1280 0 -1280 0 0 820 0 820 128 0 c144 0 175 10 180
 
         <div className="columns">
           <div className="column">
-            <div className="card">
+            <div className="card hvr-grow">
               <div className="card-image">
                 <figure className="image is-4by3">
                   <img src="../images/the-kitchen.png" alt="Placeholder image" />
@@ -87,7 +87,7 @@ l1022 0 0 -820 0 -820 -1280 0 -1280 0 0 820 0 820 128 0 c144 0 175 10 180
                     <p className="subtitle is-6">Project-3</p>
                   </div>
                 </div>
-                <div className="content">
+                <div className="content descrip">
                   Our first full stack app, built with a React.js frontend and an Node/Express backend. Components were created with React Hooks.
                 </div>
               </div>
@@ -96,7 +96,7 @@ l1022 0 0 -820 0 -820 -1280 0 -1280 0 0 820 0 820 128 0 c144 0 175 10 180
 
 
           <div className="column">
-            <div className="card">
+            <div className="card hvr-grow">
               <div className="card-image">
                 <figure className="image is-4by3">
                   <img src="../images/park-my-bike.png" alt="Placeholder image" />
@@ -114,7 +114,7 @@ l1022 0 0 -820 0 -820 -1280 0 -1280 0 0 820 0 820 128 0 c144 0 175 10 180
                     <p className="subtitle is-6">Project-2</p>
                   </div>
                 </div>
-                <div className="content">
+                <div className="content descrip">
                   A React.js app built for a class Hackathon. The project uses class structures and makes use of two APIs.
                 </div>
               </div>
@@ -123,7 +123,7 @@ l1022 0 0 -820 0 -820 -1280 0 -1280 0 0 820 0 820 128 0 c144 0 175 10 180
 
 
           <div className="column">
-            <div className="card">
+            <div className="card hvr-grow">
               <div className="card-image">
                 <figure className="image is-4by3">
                   <img src="../images/heroes-vs-villains.png" alt="Placeholder image" />
@@ -141,7 +141,7 @@ l1022 0 0 -820 0 -820 -1280 0 -1280 0 0 820 0 820 128 0 c144 0 175 10 180
                     <p className="subtitle is-6">Project-X</p>
                   </div>
                 </div>
-                <div className="content">
+                <div className="content descrip">
                   A React.js project created as an additional project to practice React principles and API integration.
                 </div>
               </div>
@@ -149,7 +149,7 @@ l1022 0 0 -820 0 -820 -1280 0 -1280 0 0 820 0 820 128 0 c144 0 175 10 180
           </div>
 
           <div className="column">
-            <div className="card">
+            <div className="card hvr-grow">
               <div className="card-image">
                 <figure className="image is-4by3">
                   <img src="../images/invasion.png" alt="Placeholder image" />
@@ -167,7 +167,7 @@ l1022 0 0 -820 0 -820 -1280 0 -1280 0 0 820 0 820 128 0 c144 0 175 10 180
                     <p className="subtitle is-6">Project-1</p>
                   </div>
                 </div>
-                <div className="content">
+                <div className="content descrip">
                   A recreation of Space Invaders using HTML, CSS3 and Vanilla JavaScript.
                 </div>
               </div>
@@ -177,7 +177,7 @@ l1022 0 0 -820 0 -820 -1280 0 -1280 0 0 820 0 820 128 0 c144 0 175 10 180
         </div>
           <div className="columns">
         <div className="column is-one-quarter">
-            <div className="card">
+            <div className="card hvr-grow">
               <div className="card-image">
                 <figure className="image is-4by3">
                   <img src="../images/tripbit.png" alt="Placeholder image" />
@@ -195,7 +195,7 @@ l1022 0 0 -820 0 -820 -1280 0 -1280 0 0 820 0 820 128 0 c144 0 175 10 180
                     <p className="subtitle is-6">Project-4</p>
                   </div>
                 </div>
-                <div className="content">
+                <div className="content descrip">
                   Our final project full-stack app, built with a React.js frontend and a Django/Python backend.
                 </div>
               </div>

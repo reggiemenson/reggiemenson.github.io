@@ -4,12 +4,12 @@ import React from 'react'
 const Skills = () => {
 
 
-  return (<section className="section">
+  return (<section id="skill" className="section">
     <div className="tile is-ancestor">
       <div className="tile is-vertical">
         <div className="tile is-parent">
           <div className="tile is-child skill-title">
-          <figure className="image is-square">
+            <figure className="image is-square">
           <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
  width="65" height="65" viewBox="0 0 594.000000 560.000000"
  preserveAspectRatio="xMidYMid meet">
@@ -74,155 +74,195 @@ m-1574 -404 l-183 -183 -72 72 -73 73 182 182 183 183 72 -72 73 -73 -182
         </div>
         <div className="tile is-parent">
 
-          <div className="tile is-4 is-parent">
-            <div className="tile is-child frontend-box">
+          <div className="tile">
+            <div className="tile is-parent">
+              <div className="tile is-child frontend-box">
 
-              <div className="columns is-multiline is-centered">
-                <div className="column is-narrow">
-                  <div className="container skill-cat">
-                    <i className="fas fa-desktop skill-icon"></i><i className="fas fa-tablet-alt skill-icon"></i><i className="fas fa-mobile-alt skill-icon"></i>
-                    <div className="subtitle">Front-End</div>
+                <div className="columns is-multiline is-centered">
+                  <div className="column is-narrow">
+                    <div className="container skill-cat">
+                      <i className="fas fa-desktop skill-icon"></i><i className="fas fa-tablet-alt skill-icon"></i><i className="fas fa-mobile-alt skill-icon"></i>
+                      <div className="subtitle">Front-End</div>
+                    </div>
+                    <div className="columns is-multiline">
+
+                      <div className="column">
+                        <div className="tile is-ancester is-vertical">
+                          <div className="tile is-parent skill-tile">
+                            <div className="tile is-child tech-line">
+                              <span className="tech-skills">HTML5</span><figure className="tech-skills"><i className="skills-icon devicon-html5-plain fa-2x"></i></figure>
+                            </div>
+                          </div>
+                          <div className="tile is-parent skill-tile">
+                            <div className="tile is-child tech-line">
+                              <span className="tech-skills">CSS3</span><figure className="tech-skills"><i className="skills-icon devicon-css3-plain fa-2x"></i></figure>
+                            </div>
+                          </div>
+                          <div className="tile is-parent skill-tile">
+                            <div className="tile is-child tech-line">
+                              <span className="tech-skills">JavaScript</span><figure className="tech-skills"><i className="skills-icon devicon-javascript-plain fa-2x"></i></figure>
+                            </div>
+                          </div>
+                          <div className="tile is-parent skill-tile">
+                            <div className="tile is-child tech-line">
+                              <span className="tech-skills">SASS</span><figure className="tech-skills"><i className="skills-icon devicon-sass-original fa-2x"></i></figure>
+                            </div>
+                          </div>
+                          <div className="tile is-parent skill-tile">
+                            <div className="tile is-child tech-line">
+                              <span className="tech-skills">Babel</span><figure className="tech-skills"><i className="skills-icon devicon-babel-plain fa-2x"></i></figure>
+                            </div>
+                          </div>
+                          <div className="tile is-parent skill-tile">
+                            <div className="tile is-child tech-line">
+                              <span className="tech-skills">React.js</span><figure className="tech-skills"><i className="skills-icon devicon-react-original fa-2x"></i></figure>
+                            </div>
+                          </div>
+                          {/* <div className="tile is-parent skill-tile">
+                            <div className="tile is-child tech-line">
+                              <span className="tech-skills">Bulma</span><figure className="tech-skills"><i className="skills-icon devicon-react-original fa-2x"></i></figure>
+                            </div>
+                          </div> */}
+                          <div className="tile is-parent skill-tile">
+                            <div className="tile is-child tech-line">
+                              <span className="tech-skills">Node Package Manager</span><figure className="tech-skills"><i className="skills-icon fab fa-npm fa-2x"></i></figure>
+                            </div>
+                          </div>
+                          <div className="tile is-parent skill-tile">
+                            <div className="tile is-child tech-line">
+                              <span className="tech-skills">Yarn</span><figure className="tech-skills"><i className="skills-icon fab fa-yarn fa-2x"></i></figure>
+                            </div>
+                          </div>
+                          <div className="tile is-parent skill-tile">
+                            <div className="tile is-child tech-line">
+                              <span className="tech-skills">Webpack</span><figure className="tech-skills"><i className="skills-icon devicon-webpack-plain fa-2x"></i></figure>
+                            </div>
+                          </div>
+
+                        </div>
+
+                      </div>
+                    </div>
                   </div>
-                  <div className="columns is-multiline is-centered">
 
-                    <div className="column is-narrow">
-                      <div>
-                        <span>HTML5</span>
-                      </div>
-                      <div>
-                        <span>CSS3</span>
-                      </div>
-                      <div>
-                        <span>JavaScript</span>
-                      </div>
-                      <div>
-                        <span>SASS</span>
-                      </div>
-                      <div>
-                        <span>Babel</span>
-                      </div>
-                      <div>
-                        <span>React</span>
+                </div>
+              </div>
+            </div>
+            <div className="tile is-4 is-parent">
+              <div className="tile is-child backend-box">
+                <div className="columns is-multiline is-centered">
+                  <div className="column is-narrow">
+                    <div className="container skill-cat">
+                      <i className="fas fa-server skill-icon"></i><i className="fas fa-database skill-icon"></i>
+                      <div className="subtitle">Back-End</div>
+                    </div>
+                    <div className="columns is-multiline is-centered">
+                      <div className="column">
+                        <div className="tile is-ancester is-vertical">
+                          <div className="tile is-parent  skill-tile">
+                            <div className="tile is-child tech-line">
+                              <span className="tech-skills">Express</span><figure><i className="skills-icon devicon-express-original fa-2x"></i></figure>
+                            </div>
+                          </div>
+                          <div className="tile is-parent skill-tile">
+                            <div className="tile is-child tech-line">
+                              <span className="tech-skills">Node.js</span><figure><i className="skills-icon devicon-nodejs-plain fa-2x"></i></figure>
+                            </div>
+                          </div>
+                          <div className="tile is-parent skill-tile">
+                            <div className="tile is-child tech-line">
+                              <span className="tech-skills">MongoDB</span><figure><i className="skills-icon devicon-mongodb-plain fa-2x"></i></figure>
+                            </div>
+                          </div>
+                          <div className="tile is-parent skill-tile">
+                            <div className="tile is-child tech-line">
+                              <span className="tech-skills">Python</span><figure><i className="skills-icon devicon-python-plain fa-2x"></i></figure>
+                            </div>
+                          </div>
+                          <div className="tile is-parent skill-tile">
+                            <div className="tile is-child tech-line">
+                              <span className="tech-skills">Django</span><figure><i className="skills-icon devicon-django-plain fa-2x"></i></figure>
+                            </div>
+                          </div>
+                          {/* <div className="tile is-parent skill-tile">
+                            <div className="tile is-child tech-line">
+                              <span className="tech-skills">SQL</span><figure><i className="skills-icon devicon-python-plain fa-2x"></i></figure>
+                            </div>
+                          </div> */}
+                          <div className="tile is-parent skill-tile">
+                            <div className="tile is-child tech-line">
+                              <span className="tech-skills">PostgreSQL</span><figure><i className="skills-icon devicon-postgresql-plain fa-2x"></i></figure>
+                            </div>
+                          </div>
+                        </div>
+
                       </div>
                     </div>
-
-                    <div className="column is-narrow">
-                      <div>
-                        <figure><i className="skills-icon devicon-html5-plain fa-2x"></i></figure>
-                      </div>
-                      <div>
-                        <figure><i className="skills-icon devicon-css3-plain fa-2x"></i></figure>
-                      </div>
-                      <div>
-                        <figure><i className="skills-icon devicon-javascript-plain fa-2x"></i></figure>
-                      </div><div>
-                        <figure><i className="skills-icon devicon-sass-original fa-2x"></i></figure>
-                      </div><div>
-                        <figure><i className="skills-icon devicon-babel-plain fa-2x"></i></figure>
-                      </div><div>
-                        <figure><i className="skills-icon devicon-react-original fa-2x"></i></figure>
-                      </div>
-                    </div>
-
                   </div>
                 </div>
               </div>
 
             </div>
-
-          </div>
-          <div className="tile is-4 is-parent">
-            <div className="tile is-child backend-box">
-              <div className="columns is-multiline is-centered">
-                <div className="column is-narrow">
-                  <div className="container skill-cat">
-                    <i className="fas fa-server skill-icon"></i><i className="fas fa-database skill-icon"></i>
-                    <div className="subtitle">Back-End</div>
-                  </div>
-                  <div className="columns is-multiline is-centered">
-                    <div className="column is-narrow">
-                      <div>
-                        <span>Express</span>
-                      </div>
-                      <div>
-                        <span>Node.js</span>
-                      </div>
-                      <div>
-                        <span>MongoDB</span>
-                      </div>
-                      <div>
-                        <span>Python</span>
-                      </div>
+            <div className="tile is-4 is-parent">
+              <div className="tile is-child">
+                <div className="columns is-multiline is-centered">
+                  <div className="column is-narrow">
+                    <div className="container skill-cat">
+                      <i className="fas fa-laptop skill-icon"></i>
+                      <div className="subtitle">Additional</div>
                     </div>
+                    <div className="columns is-multiline is-centered">
+                      <div className="column">
+                        <div className="tile is-ancester is-vertical">
+                          <div className="tile is-parent skill-tile">
+                            <div className="tile is-child tech-line">
+                              <span className="tech-skills">Github</span><figure><i className="skills-icon devicon-github-plain fa-2x"></i></figure>
+                            </div>
+                          </div>
+                          <div className="tile is-parent skill-tile">
+                            <div className="tile is-child tech-line">
+                              <span className="tech-skills">Git</span><figure><i className="skills-icon devicon-git-plain fa-2x"></i></figure>
+                            </div>
+                          </div>
+                          <div className="tile is-parent skill-tile">
+                            <div className="tile is-child tech-line">
+                              <span className="tech-skills">Heroku</span><figure><i className="skills-icon devicon-heroku-original fa-2x"></i></figure>
+                            </div>
+                          </div>
+                          <div className="tile is-parent skill-tile">
+                            <div className="tile is-child tech-line">
+                              <span className="tech-skills">Trello</span><figure><i className="skills-icon devicon-trello-plain fa-2x"></i></figure>
+                            </div>
+                          </div>
+                          <div className="tile is-parent skill-tile">
+                            <div className="tile is-child tech-line">
+                              <span className="tech-skills">Mocha</span><figure><i className="skills-icon devicon-mocha-plain fa-2x"></i></figure>
+                            </div>
+                          </div>
+                          {/* <div className="tile is-parent skill-tile">
+                            <div className="tile is-child tech-line">
+                              <span className="tech-skills">Chai</span><figure><i className="skills-icon devicon-mocha-plain fa-2x"></i></figure>
+                            </div>
+                          </div> */}
+                          <div className="tile is-parent skill-tile">
+                            <div className="tile is-child tech-line">
+                              <span className="tech-skills">VScode</span><figure><i className="skills-icon devicon-visualstudio-plain fa-2x"></i></figure>
+                            </div>
+                          </div>
+                          {/* <div className="tile is-parent skill-tile">
+                            <div className="tile is-child tech-line">
+                              <span className="tech-skills">Insomnia</span><figure><i className="skills-icon devicon-mocha-plain fa-2x"></i></figure>
+                            </div>
+                          </div> */}
 
-                    <div className="column is-narrow">
-                      <div>
-                        <figure>  <i className="skills-icon devicon-express-original fa-2x"></i></figure>
-                      </div>
-                      <div>
-                        <figure><i className="skills-icon devicon-nodejs-plain fa-2x"></i></figure>
-                      </div>
-                      <div>
-                        <figure><i className="skills-icon devicon-mongodb-plain fa-2x"></i></figure>
-                      </div>
-                      <div>
-                        <figure><i className="skills-icon devicon-python-plain fa-2x"></i></figure>
-                      </div>
-                    </div>
-
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <div className="tile is-4 is-parent">
-            <div className="tile is-child">
-              <div className="columns is-multiline is-centered">
-                <div className="column is-narrow">
-                  <div className="container skill-cat">
-                    <i className="fas fa-laptop skill-icon"></i>
-                    <div className="subtitle">Additional</div>
-                  </div>
-                  <div className="columns is-multiline is-centered">
-                    <div className="column is-narrow">
-                      <div>
-                        <span>Github</span>
-                      </div>
-                      <div>
-                        <span>Git</span>
-                      </div>
-                      <div>
-                        <span>Heroku</span>
-                      </div>
-                      <div>
-                        <span>Trello</span>
-                      </div>
-                      <div>
-                        <span>Mocha</span>
-                      </div>
-                    </div>
-
-                    <div className="column is-narrow">
-                      <div>
-                        <figure><i className="skills-icon devicon-github-plain fa-2x"></i></figure>
-                      </div><div>
-                        <figure><i className="skills-icon devicon-git-plain fa-2x"></i></figure>
-                      </div>
-                      <div>
-                        <figure><i className="skills-icon devicon-heroku-original fa-2x"></i></figure>
-                      </div>
-                      <div>
-                        <figure><i className="skills-icon devicon-trello-plain fa-2x"></i></figure>
-                      </div><div>
-                        <figure><i className="skills-icon devicon-mocha-plain fa-2x"></i></figure>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
 
+            </div>
           </div>
         </div>
       </div>

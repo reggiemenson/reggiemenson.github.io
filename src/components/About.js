@@ -180,15 +180,15 @@ l-140 0 0 50 0 50 134 0 134 0 6 -31z m10 -376 c15 -437 26 -823 26 -914 l0
               <h3 className="subtitle">Industry Experience</h3>
               <div className="columns">
                 <div className="column">
-                  <i className="far fa-newspaper fa-5x"></i>
+                  <i className="far fa-newspaper fa-4x"></i>
                   <h5>Media</h5>
                 </div>
                 <div className="column">
-                  <i className="fas fa-archive fa-5x"></i>
+                  <i className="fas fa-archive fa-4x"></i>
                   <h5>Data Storage</h5>
                 </div>
                 <div className="column">
-                  <i className="fas fa-shopping-cart fa-5x"></i>
+                  <i className="fas fa-shopping-cart fa-4x"></i>
                   <h5>Online Retail</h5>
                 </div>
               </div>
