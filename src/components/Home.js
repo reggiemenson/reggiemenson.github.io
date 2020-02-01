@@ -1,9 +1,13 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 
 import Image from './Background'
 
 const Home = () => {
+  const [loaded, setloaded] = useState(false)
 
+  useEffect(() => {
+    setloaded(true)
+  }, [])
 
   return (<section className="hero is-fullheight">
     <div className="hero-head">
@@ -38,16 +42,17 @@ const Home = () => {
 
     <div className="hero-body">
       <div className="container">
-        <p className="title main">
+        <div className="title main">
           {/* Bold and enlarge first name */}
           <span className="first">Reggie</span> Tachie-Menson
-        </p>
+          {loaded && <div className="underline"></div>}
+        </div>
         <p className="subtitle">
           Junior Developer
         </p>
       </div>
     </div>
-    <Image/>
+    <Image />
   </section>
   )
 }
