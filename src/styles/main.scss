@@ -50,13 +50,17 @@
 
 ///svg
 
-svg {
+svg.main-logo {
   position: absolute;
   path {
     fill: black;
     stroke: black;
     stroke-width: 3;
   }
+}
+
+.image.is-square {
+  padding-top: 0;
 }
 
 
@@ -109,7 +113,7 @@ i {
 // -------project-title
 
 div.project-title {
-  padding: 1em;
+  padding: 0 1em 1em 0;
 }
 
 div.project-tile {
@@ -137,4 +141,8 @@ div.project-tile {
 
 .skill-icon {
   margin: 0.2rem;
+}
+
+.skill-title {
+  padding-left: 2rem;
 }
