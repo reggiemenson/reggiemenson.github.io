@@ -12,7 +12,7 @@ const Projects = () => {
           <div className="column is-half">
             <div className="tile project-tile">
               <div className="tile is-child project-header">
-              <figure className="image is-square">
+                <figure className="image is-square">
               <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
  width="65" height="65" viewBox="0 0 606.000000 574.000000"
  preserveAspectRatio="xMidYMid meet">
@@ -72,23 +72,95 @@ l1022 0 0 -820 0 -820 -1280 0 -1280 0 0 820 0 820 128 0 c144 0 175 10 180
             <div className="card hvr-grow">
               <div className="card-image">
                 <figure className="image is-4by3">
-                  <img src="../images/the-kitchen-cropped.png" alt="Placeholder image" />
+                  <img src="../images/invasion-cropped.png" alt="Placeholder image" />
                 </figure>
               </div>
               <div className="card-content">
                 <div className="media">
                   <div className="media-left">
                     <figure className="image is-48x48">
-                      <i className="fas fa-users fa-2x"></i>
+                      <i className="fas fa-user fa-2x"></i>
                     </figure>
                   </div>
                   <div className="media-content">
-                    <p className="title is-4">the-kitchen</p>
-                    <p className="subtitle is-6">Project-3</p>
+                    <p className="title is-4">Invasion</p>
+                    <p className="subtitle is-6">Project-1</p>
+                  </div>
+                </div>
+                <div className="content">
+                  <div className="columns is-mobile is-multiline is-vcentered is-centered">
+                    <div className="column is-narrow">
+                      <i className="skills-icon devicon-github-plain fa-2x"></i>
+                      <div>ReadMe</div>
+                    </div>
+                    <div className="column is-narrow">
+                      <div>
+                        <i className="skills-icon fab fa-chrome fa-2x"></i>
+                        <div>Website</div>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div className="content descrip">
-                  Our first full stack app, built with a React.js frontend and an Node/Express backend. Components were created with React Hooks.
+                  A recreation of Space Invaders using HTML, CSS3 and Vanilla JavaScript.
+                </div>
+              </div>
+              <div className="card-footer">
+                <div className="proskill card-footer-item tech-used">
+                  <i className="proskill devicon-html5-plain"></i>
+                  <i className="proskill devicon-css3-plain"></i>
+                  <i className="proskill devicon-javascript-plain"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div className="column">
+            <div className="card hvr-grow">
+              <div className="card-image">
+                <figure className="image is-4by3">
+                  <img src="../images/heroes-vs-villains-cropped.png" alt="Placeholder image" />
+                </figure>
+              </div>
+              <div className="card-content">
+                <div className="media">
+                  <div className="media-left">
+                    <figure className="image is-48x48">
+                      <i className="fas fa-user fa-2x"></i>
+                    </figure>
+                  </div>
+                  <div className="media-content">
+                    <p className="title is-5">Heroes-VS-Villains</p>
+                    <p className="subtitle is-6">Project-X</p>
+                  </div>
+                </div>
+                <div className="content">
+                  <div className="columns is-mobile is-multiline is-vcentered is-centered">
+                    <div className="column is-narrow">
+                      <i className="skills-icon devicon-github-plain fa-2x"></i>
+                      <div>ReadMe</div>
+                    </div>
+                    <div className="column is-narrow">
+                      <div>
+                        <i className="skills-icon fab fa-chrome fa-2x"></i>
+                        <div>Website</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="content descrip">
+                  A React.js project created as an additional project to practice React principles and API integration.
+                </div>
+              </div>
+              <div className="card-footer">
+                <div className="card-footer-item tech-used">
+                  <i className="proskill devicon-html5-plain"></i>
+                  <i className="proskill devicon-css3-plain"></i>
+                  <i className="proskill devicon-react-original"></i>
+                  <i className="proskill devicon-babel-plain"></i>
+                  <i className="proskill fab fa-npm"></i>
+                  <i className="proskill devicon-webpack-plain"></i>
                 </div>
               </div>
             </div>
@@ -114,96 +186,94 @@ l1022 0 0 -820 0 -820 -1280 0 -1280 0 0 820 0 820 128 0 c144 0 175 10 180
                     <p className="subtitle is-6">Project-2</p>
                   </div>
                 </div>
+                <div className="content">
+                  <div className="columns is-mobile is-multiline is-vcentered is-centered">
+                    <div className="column is-narrow">
+                      <i className="skills-icon devicon-github-plain fa-2x"></i>
+                      <div>ReadMe</div>
+                    </div>
+                    <div className="column is-narrow">
+                      <div>
+                        <i className="skills-icon fab fa-chrome fa-2x"></i>
+                        <div>Website</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <div className="content descrip">
                   A React.js app built for a class Hackathon. The project uses class structures and makes use of two APIs.
                 </div>
+              </div>
               <div className="card-footer">
                 <div className="card-footer-item tech-used">
-                  <i className="devicon-html5-plain fa-2x"></i>
-                  <i className="devicon-css3-plain fa-2x"></i>
-                  <i className="devicon-react-original fa-2x"></i>
-                  <i className="devicon-babel-plain fa-2x"></i>
-                  <i className="fab fa-npm fa-2x"></i>
-                  <i className="devicon-webpack-plain fa-2x"></i>
+                  <i className="proskill devicon-html5-plain"></i>
+                  <i className="proskill devicon-css3-plain"></i>
+                  <i className="proskill devicon-react-original"></i>
+                  <i className="proskill devicon-babel-plain"></i>
+                  <i className="proskill fab fa-npm"></i>
+                  <i className="proskill devicon-webpack-plain"></i>
                 </div>
-              </div>
               </div>
             </div>
           </div>
-
 
           <div className="column">
             <div className="card hvr-grow">
               <div className="card-image">
                 <figure className="image is-4by3">
-                  <img src="../images/heroes-vs-villains-cropped.png" alt="Placeholder image" />
+                  <img src="../images/the-kitchen-cropped.png" alt="Placeholder image" />
                 </figure>
               </div>
               <div className="card-content">
                 <div className="media">
                   <div className="media-left">
                     <figure className="image is-48x48">
-                      <i className="fas fa-user fa-2x"></i>
+                      <i className="fas fa-users fa-2x"></i>
                     </figure>
                   </div>
                   <div className="media-content">
-                    <p className="title is-5">Heroes-VS-Villains</p>
-                    <p className="subtitle is-6">Project-X</p>
+                    <p className="title is-4">the-kitchen</p>
+                    <p className="subtitle is-6">Project-3</p>
+                  </div>
+                </div>
+                <div className="content">
+                  <div className="columns is-mobile is-multiline is-vcentered is-centered">
+                    <div className="column is-narrow">
+                      <i className="skills-icon devicon-github-plain fa-2x"></i>
+                      <div>ReadMe</div>
+                    </div>
+                    <div className="column is-narrow">
+                      <div>
+                        <i className="skills-icon fab fa-chrome fa-2x"></i>
+                        <div>Website</div>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div className="content descrip">
-                  A React.js project created as an additional project to practice React principles and API integration.
+                  Our first full stack app, built with a React.js frontend and an Node/Express backend. Components were created with React Hooks.
                 </div>
-                  <div className="card-footer">
+              </div>
+              <div className="card-footer">
                 <div className="card-footer-item tech-used">
-                  <i className="devicon-html5-plain fa-2x"></i>
-                  <i className="devicon-css3-plain fa-2x"></i>
-                  <i className="devicon-react-original fa-2x"></i>
-                  <i className="devicon-babel-plain fa-2x"></i>
-                  <i className="fab fa-npm fa-2x"></i>
-                  <i className="devicon-webpack-plain fa-2x"></i>
-                </div>
-              </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="column">
-            <div className="card hvr-grow">
-              <div className="card-image">
-                <figure className="image is-4by3">
-                  <img src="../images/invasion-cropped.png" alt="Placeholder image" />
-                </figure>
-              </div>
-              <div className="card-content">
-                <div className="media">
-                  <div className="media-left">
-                    <figure className="image is-48x48">
-                      <i className="fas fa-user fa-2x"></i>
-                    </figure>
-                  </div>
-                  <div className="media-content">
-                    <p className="title is-4">Invasion</p>
-                    <p className="subtitle is-6">Project-1</p>
-                  </div>
-                </div>
-                <div className="content descrip">
-                  A recreation of Space Invaders using HTML, CSS3 and Vanilla JavaScript.
-                </div>
-                  <div className="card-footer">
-                  <div className="card-footer-item tech-used">
-                    <i className="devicon-html5-plain fa-2x"></i>
-                    <i className="devicon-css3-plain fa-2x"></i>
-                    <i className="devicon-javascript-plain fa-2x"></i>
-                  </div>
+                  <i className="proskill devicon-html5-plain"></i>
+                  <i className="proskill devicon-css3-plain"></i>
+                  <i className="proskill devicon-react-original"></i>
+                  <i className="proskill devicon-babel-plain"></i>
+                  <i className="proskill fab fa-npm"></i>
+                  <i className="proskill devicon-webpack-plain"></i>
+                  <i className="proskill devicon-express-original"></i>
+                  <i className="proskill devicon-nodejs-plain"></i>
+                  <i className="proskill devicon-mongodb-plain"></i>
+                  <i className="proskill devicon-heroku-original"></i>
                 </div>
               </div>
             </div>
           </div>
 
         </div>
-          <div className="columns">
-        <div className="column is-one-quarter">
+        <div className="columns">
+          <div className="column is-one-quarter">
             <div className="card hvr-grow">
               <div className="card-image">
                 <figure className="image is-4by3">
@@ -222,13 +292,42 @@ l1022 0 0 -820 0 -820 -1280 0 -1280 0 0 820 0 820 128 0 c144 0 175 10 180
                     <p className="subtitle is-6">Project-4</p>
                   </div>
                 </div>
+                <div className="content">
+                  <div className="columns is-mobile is-multiline is-vcentered is-centered">
+                    <div className="column is-narrow">
+                      <i className="skills-icon devicon-github-plain fa-2x"></i>
+                      <div>ReadMe</div>
+                    </div>
+                    <div className="column is-narrow">
+                      <div>
+                        <i className="skills-icon fab fa-chrome fa-2x"></i>
+                        <div>Website</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <div className="content descrip">
                   Our final project full-stack app, built with a React.js frontend and a Django/Python backend.
                 </div>
               </div>
+              <div className="card-footer">
+                <div className="card-footer-item tech-used">
+                  <i className="proskill devicon-html5-plain"></i>
+                  <i className="proskill devicon-css3-plain"></i>
+                  <i className="proskill devicon-react-original"></i>
+                  <i className="proskill devicon-babel-plain"></i>
+                  <i className="proskill fab fa-yarn"></i>
+                  <i className="proskill devicon-webpack-plain"></i>
+                  <i className="proskill devicon-django-plain"></i>
+                  <i className="proskill devicon-python-plain"></i>
+                  <i className="proskill devicon-postgresql-plain"></i>
+                  <i className="proskill devicon-heroku-original"></i>
+                  <i className="proskill devicon-trello-plain"></i>
+                </div>
+              </div>
             </div>
-        </div>
           </div>
+        </div>
 
       </div>
     </div>

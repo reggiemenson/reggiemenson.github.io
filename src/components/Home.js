@@ -11,7 +11,7 @@ const Home = () => {
 
   return (<section className="hero is-fullheight">
     <div className="hero-head">
-      <nav className="navbar">
+      <nav className="navbar is-fixed-top is-transparent is-boxed">
         <div className="container">
           <div className="navbar-brand">
             {/* <a className="navbar-item">
