@@ -75,7 +75,8 @@ svg.main-logo {
 //cards
 
 .card {
-  height: 30em;
+  min-height: 30em;
+  height: 100%;
 }
 
 .media {
@@ -136,6 +137,10 @@ div.project-tile {
 //   // border-right: 0.3rem solid black;
 //   border-bottom: 0.3rem solid black;
 // }
+
+.tech-used {
+  padding: 10px;
+}
 
 //-------skills---
 
@@ -230,7 +235,7 @@ div.card-image {
   background: linear-gradient(270deg, #602466, #242e66);
   -webkit-animation: gradient-pulse 10s ease infinite;
   animation: gradient-pulse 10s ease infinite;
-  animation: grow 1s linear;
+  animation: grow 3s ease-in-out;
   margin-top: 5px
 }
 
@@ -244,12 +249,10 @@ div.title.main {
 
 @-webkit-keyframes grow {
     0%{width: 0}
-    60%{width: 80%}
     100%{width: 100%}
 }
 @keyframes grow {
     0%{width: 0}
-    60%{width: 80%}
     100%{width: 100%}
 }
 

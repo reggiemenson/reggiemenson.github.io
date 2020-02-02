@@ -117,6 +117,16 @@ l1022 0 0 -820 0 -820 -1280 0 -1280 0 0 820 0 820 128 0 c144 0 175 10 180
                 <div className="content descrip">
                   A React.js app built for a class Hackathon. The project uses class structures and makes use of two APIs.
                 </div>
+              <div className="card-footer">
+                <div className="card-footer-item tech-used">
+                  <i className="devicon-html5-plain fa-2x"></i>
+                  <i className="devicon-css3-plain fa-2x"></i>
+                  <i className="devicon-react-original fa-2x"></i>
+                  <i className="devicon-babel-plain fa-2x"></i>
+                  <i className="fab fa-npm fa-2x"></i>
+                  <i className="devicon-webpack-plain fa-2x"></i>
+                </div>
+              </div>
               </div>
             </div>
           </div>
@@ -144,6 +154,16 @@ l1022 0 0 -820 0 -820 -1280 0 -1280 0 0 820 0 820 128 0 c144 0 175 10 180
                 <div className="content descrip">
                   A React.js project created as an additional project to practice React principles and API integration.
                 </div>
+                  <div className="card-footer">
+                <div className="card-footer-item tech-used">
+                  <i className="devicon-html5-plain fa-2x"></i>
+                  <i className="devicon-css3-plain fa-2x"></i>
+                  <i className="devicon-react-original fa-2x"></i>
+                  <i className="devicon-babel-plain fa-2x"></i>
+                  <i className="fab fa-npm fa-2x"></i>
+                  <i className="devicon-webpack-plain fa-2x"></i>
+                </div>
+              </div>
               </div>
             </div>
           </div>
@@ -169,6 +189,13 @@ l1022 0 0 -820 0 -820 -1280 0 -1280 0 0 820 0 820 128 0 c144 0 175 10 180
                 </div>
                 <div className="content descrip">
                   A recreation of Space Invaders using HTML, CSS3 and Vanilla JavaScript.
+                </div>
+                  <div className="card-footer">
+                  <div className="card-footer-item tech-used">
+                    <i className="devicon-html5-plain fa-2x"></i>
+                    <i className="devicon-css3-plain fa-2x"></i>
+                    <i className="devicon-javascript-plain fa-2x"></i>
+                  </div>
                 </div>
               </div>
             </div>

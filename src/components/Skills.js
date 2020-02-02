@@ -246,7 +246,7 @@ m-1574 -404 l-183 -183 -72 72 -73 73 182 182 183 183 72 -72 73 -73 -182
                           </div> */}
                           <div className="tile is-parent skill-tile">
                             <div className="tile is-child tech-line">
-                              <span className="tech-skills">VScode</span><figure><i className="skills-icon devicon-visualstudio-plain fa-2x"></i></figure>
+                              <span className="tech-skills">VSCode</span><figure><i className="skills-icon devicon-visualstudio-plain fa-2x"></i></figure>
                             </div>
                           </div>
                           {/* <div className="tile is-parent skill-tile">
