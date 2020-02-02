@@ -10,43 +10,51 @@
 }
 
 
-////---------------------------------------card-flipping
+////---------------------menu----/
 
-// .flip-card {
-//   background-color: transparent;
-//   perspective: 1000px;
-// }
+* {
+  box-sizing: border-box;
+}
 
-// .flip-card-inner {
-//   position: relative;
-//   width: 100%;
-//   height: 100%;
-//   text-align: center;
-//   transition: transform 0.8s;
-//   transform-style: preserve-3d;
-// }
+div.navbar-end {
+  width: 100%;
+  // margin: 0 auto;
+}
 
-// .flip-card:hover .flip-card-inner {
-//   transform: rotateY(180deg);
-// }
+div.navbar-item {
+  display: inline;
+  text-align: center;
+}
 
-// .flip-card-front, .flip-card-back {
-//   position: absolute;
-//   width: 100%;
-//   height: 100%;
-//   backface-visibility: hidden;
-// }
+div.navbar-custom a {
+  display: inline-block;
+  width: 25%;
+  // padding: .75rem 0;
+  // margin: 0;
+  text-decoration: none;
+  text-align: center;
+}
 
-// .flip-card-front {
-//   background-color: #bbb;
-//   color: black;
-// }
+.two:hover ~ hr {
+  margin-left: 25%;
+}
 
-// .flip-card-back {
-//   background-color: dodgerblue;
-//   color: black;
-//   transform: rotateY(180deg);
-// }
+.three:hover ~ hr {
+  margin-left: 50%;
+}
+
+.four:hover ~ hr {
+  margin-left: 75%;
+}
+
+hr {
+  height: .25rem;
+  width: 25%;
+  margin: 0;
+  background: tomato;
+  border: none;
+  transition: .3s ease-in-out;
+}
 
 ///svg
 

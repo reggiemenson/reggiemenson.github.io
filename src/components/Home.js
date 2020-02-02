@@ -25,15 +25,21 @@ const Home = () => {
           </div>
           <div id="navbarMenuHeroB" className="navbar-menu">
             <div className="navbar-end">
-              <a className="navbar-item is-active">
-                Home
-              </a>
-              <a className="navbar-item">
-                Projects
-              </a>
-              <a className="navbar-item">
-                Experience
-              </a>
+              <div className="navbar-custom">
+                <a className="navbar-item is-active">
+                  Top
+                </a>
+                <a className="navbar-item two">
+                  Profile
+                </a>
+                <a className="navbar-item three">
+                  Projects
+                </a>
+                <a className="navbar-item four">
+                  Contact
+                </a>
+                <hr />
+              </div>
             </div>
           </div>
         </div>

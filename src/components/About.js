@@ -41,7 +41,7 @@ const About = () => {
               </g>
             </svg>
             </figure>
-            <h3 className="subtitle">Profile</h3>
+            <h3 className="title">Profile</h3>
             <p>
               My work with retail websites and analytics has meant gradual exposure to code through tracking tags and web content styling. I grew to be fascinated by the logic behind JavaScript which in turn inspired my curiosity in how tech affected user solutions. I’ve looked to develop my coding ability ever since!
             </p>

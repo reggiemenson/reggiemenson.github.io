@@ -35,7 +35,7 @@ c470 -84 864 -285 1199 -611 138 -136 220 -232 303 -356 171 -257 269 -479
 </g>
 </svg>
             </figure>
-        <h3 className="subtitle">Contact</h3>
+        <h3 className="title">Contact</h3>
         <div className="column">
           <div className="columns">
             <div className="column">
