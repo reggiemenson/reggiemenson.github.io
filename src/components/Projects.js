@@ -90,13 +90,13 @@ l1022 0 0 -820 0 -820 -1280 0 -1280 0 0 820 0 820 128 0 c144 0 175 10 180
                 <div className="content">
                   <div className="columns is-mobile is-multiline is-vcentered is-centered">
                     <div className="column is-narrow">
-                      <i className="skills-icon devicon-github-plain fa-2x"></i>
-                      <div>ReadMe</div>
+                      <a href="https://github.com/mr-anansi/invasion" target="_blank" rel="noopener noreferrer"><i className="skills-icon devicon-github-plain fa-2x"></i></a>
+                      <div><a href="https://github.com/mr-anansi/invasion" target="_blank" rel="noopener noreferrer">ReadMe</a></div>
                     </div>
                     <div className="column is-narrow">
                       <div>
-                        <i className="skills-icon fab fa-chrome fa-2x"></i>
-                        <div>Website</div>
+                        <a href="https://reggiemenson.com/invasion" target="_blank" rel="noopener noreferrer"><i className="skills-icon fab fa-chrome fa-2x"></i></a>
+                        <div><a href="https://reggiemenson.com/invasion" target="_blank" rel="noopener noreferrer">Website</a></div>
                       </div>
                     </div>
                   </div>
@@ -138,13 +138,13 @@ l1022 0 0 -820 0 -820 -1280 0 -1280 0 0 820 0 820 128 0 c144 0 175 10 180
                 <div className="content">
                   <div className="columns is-mobile is-multiline is-vcentered is-centered">
                     <div className="column is-narrow">
-                      <i className="skills-icon devicon-github-plain fa-2x"></i>
-                      <div>ReadMe</div>
+                      <a href="https://github.com/mr-anansi/heroes-vs-villains" target="_blank" rel="noopener noreferrer"><i className="skills-icon devicon-github-plain fa-2x"></i></a>
+                      <div><a href="https://github.com/mr-anansi/heroes-vs-villains" target="_blank" rel="noopener noreferrer">ReadMe</a></div>
                     </div>
                     <div className="column is-narrow">
                       <div>
-                        <i className="skills-icon fab fa-chrome fa-2x"></i>
-                        <div>Website</div>
+                        <a href="https://reggiemenson.com/heroes-vs-villains" target="_blank" rel="noopener noreferrer"><i className="skills-icon fab fa-chrome fa-2x"></i></a>
+                        <div><a href="https://reggiemenson.com/heroes-vs-villains" target="_blank" rel="noopener noreferrer">Website</a></div>
                       </div>
                     </div>
                   </div>
@@ -189,13 +189,13 @@ l1022 0 0 -820 0 -820 -1280 0 -1280 0 0 820 0 820 128 0 c144 0 175 10 180
                 <div className="content">
                   <div className="columns is-mobile is-multiline is-vcentered is-centered">
                     <div className="column is-narrow">
-                      <i className="skills-icon devicon-github-plain fa-2x"></i>
-                      <div>ReadMe</div>
+                      <a href="https://github.com/mr-anansi/park-my-bike" target="_blank" rel="noopener noreferrer"><i className="skills-icon devicon-github-plain fa-2x"></i></a>
+                      <div><a href="https://github.com/mr-anansi/park-my-bike" target="_blank" rel="noopener noreferrer">ReadMe</a></div>
                     </div>
                     <div className="column is-narrow">
                       <div>
-                        <i className="skills-icon fab fa-chrome fa-2x"></i>
-                        <div>Website</div>
+                        <a href="https://reggiemenson.com/park-my-bike" target="_blank" rel="noopener noreferrer"><i className="skills-icon fab fa-chrome fa-2x"></i></a>
+                        <div><a href="https://reggiemenson.com/park-my-bike" target="_blank" rel="noopener noreferrer">Website</a></div>
                       </div>
                     </div>
                   </div>
@@ -239,19 +239,19 @@ l1022 0 0 -820 0 -820 -1280 0 -1280 0 0 820 0 820 128 0 c144 0 175 10 180
                 <div className="content">
                   <div className="columns is-mobile is-multiline is-vcentered is-centered">
                     <div className="column is-narrow">
-                      <i className="skills-icon devicon-github-plain fa-2x"></i>
-                      <div>ReadMe</div>
+                      <a href="https://github.com/mr-anansi/the-kitchen" target="_blank" rel="noopener noreferrer"><i className="skills-icon devicon-github-plain fa-2x"></i></a>
+                      <div><a href="https://github.com/mr-anansi/the-kitchen" target="_blank" rel="noopener noreferrer">ReadMe</a></div>
                     </div>
                     <div className="column is-narrow">
                       <div>
-                        <i className="skills-icon fab fa-chrome fa-2x"></i>
-                        <div>Website</div>
+                        <a href="https://the-kitchen-p3.herokuapp.com" target="_blank" rel="noopener noreferrer"><i className="skills-icon fab fa-chrome fa-2x"></i></a>
+                        <div><a href="https://the-kitchen-p3.herokuapp.com" target="_blank" rel="noopener noreferrer">Website</a></div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className="content descrip">
-                  Our first full stack app, built with a React.js frontend and an Node/Express backend. Components were created with React Hooks.
+                  Our first full stack app - built with a React.js frontend and an Node/Express backend. Components were created with React Hooks.
                 </div>
               </div>
               <div className="card-footer">
@@ -295,13 +295,13 @@ l1022 0 0 -820 0 -820 -1280 0 -1280 0 0 820 0 820 128 0 c144 0 175 10 180
                 <div className="content">
                   <div className="columns is-mobile is-multiline is-vcentered is-centered">
                     <div className="column is-narrow">
-                      <i className="skills-icon devicon-github-plain fa-2x"></i>
-                      <div>ReadMe</div>
+                      <a href="https://github.com/mr-anansi/tripbit" target="_blank" rel="noopener noreferrer"><i className="skills-icon devicon-github-plain fa-2x"></i></a>
+                      <div><a href="https://github.com/mr-anansi/tripbit" target="_blank" rel="noopener noreferrer">ReadMe</a></div>
                     </div>
                     <div className="column is-narrow">
                       <div>
-                        <i className="skills-icon fab fa-chrome fa-2x"></i>
-                        <div>Website</div>
+                        <a href="https://tripbit4.herokuapp.com" target="_blank" rel="noopener noreferrer"><i className="skills-icon fab fa-chrome fa-2x"></i></a>
+                        <div><a href="https://tripbit4.herokuapp.com" target="_blank" rel="noopener noreferrer">Website</a></div>
                       </div>
                     </div>
                   </div>

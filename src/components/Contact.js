@@ -72,12 +72,12 @@ c470 -84 864 -285 1199 -611 138 -136 220 -232 303 -356 171 -257 269 -479
                   <div className="tile is-child">
                     <div className="content">
                       <p>
-                        <i className="skills-icon devicon-github-plain fa-2x"></i>
-                        <span>github.com/mr-anansi</span>
+                        <a href="https://github.com/mr-anansi" target="_blank" rel="noopener noreferrer"><i className="skills-icon devicon-github-plain fa-2x"></i></a>
+                        <a href="https://github.com/mr-anansi" target="_blank" rel="noopener noreferrer"><span>github.com/mr-anansi</span></a>  
                       </p>
                       <p>
-                        <i className="skills-icon fab fa-linkedin fa-2x"></i>
-                        <span>linkedin.com/reggiemenson</span>
+                        <a href="https://linkedin.com/in/reggiemenson" target="_blank" rel="noopener noreferrer"><i className="skills-icon fab fa-linkedin fa-2x"></i></a>
+                        <a href="https://linkedin.com/in/reggiemenson" target="_blank" rel="noopener noreferrer"><span>linkedin.com/in/reggiemenson</span></a>
                       </p>
                     </div>
                   </div>

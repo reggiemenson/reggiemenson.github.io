@@ -1,22 +1,14 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 
 import Image from './Background'
 
 const Home = () => {
-  const [loaded, setloaded] = useState(false)
-
-  useEffect(() => {
-    setloaded(true)
-  }, [])
 
   return (<section className="hero is-fullheight">
     <div className="hero-head">
       <nav className="navbar is-fixed-top is-transparent is-boxed">
         <div className="container">
           <div className="navbar-brand">
-            {/* <a className="navbar-item">
-              <img src="https://bulma.io/images/bulma-type-white.png" alt="Logo" />
-            </a> */}
             <span className="navbar-burger burger" data-target="navbarMenuHeroB">
               <span></span>
               <span></span>
@@ -51,7 +43,7 @@ const Home = () => {
         <div className="title main">
           {/* Bold and enlarge first name */}
           <span className="first">Reggie</span> Tachie-Menson
-          {loaded && <div className="underline"></div>}
+          <div className="underline"></div>
         </div>
         <p className="subtitle">
           Junior Developer
