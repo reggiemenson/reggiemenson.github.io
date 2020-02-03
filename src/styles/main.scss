@@ -83,6 +83,7 @@ svg.main-logo {
 }
 
 
+
 //cards
 
 .card {
@@ -232,6 +233,9 @@ div.card-footer-item {
   flex-flow: wrap;
 }
 
+//------FOOTER----//
+
+
 //---effects---------//
 
 .hvr-grow {
@@ -289,4 +293,31 @@ div.title.main {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
+}
+
+
+//------MOBILE-------///
+
+@media only screen and (max-width: 600px) {
+  svg.main-logo {
+    opacity: 0.4;
+  }
+
+  .vertical {
+    display: none; 
+  }
+
+  .social {
+    font-size: 0.8rem;
+  }
+
+  .frontend-box {
+    border-right: none
+  }
+  
+  .backend-box {
+    border-right: none;
+  }
+  
+  
 }

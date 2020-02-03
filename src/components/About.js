@@ -178,7 +178,7 @@ l-140 0 0 50 0 50 134 0 134 0 6 -31z m10 -376 c15 -437 26 -823 26 -914 l0
 </svg>
             </figure>
               <h3 className="subtitle">Industry Experience</h3>
-              <div className="columns">
+              <div className="columns is-mobile">
                 <div className="column">
                   <i className="far fa-newspaper fa-4x"></i>
                   <h5>Media</h5>
