@@ -5,7 +5,7 @@ const Contact = () => {
 
 
   return (
-    <footer className="footer">
+    <footer className="footer" id="contact">
       <div className="column">
         <figure className="image is-square">
           <svg version="1.0" xmlns="http://www.w3.org/2000/svg"

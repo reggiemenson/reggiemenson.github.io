@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 const About = () => {
 
 
-  return (<section className="section about-section">
+  return (<section className="section about-section" id="profile">
     <div className="tile is-ancestor">
       <div className="tile is-vertical">
         <div className="tile is-parent about tile-top">
