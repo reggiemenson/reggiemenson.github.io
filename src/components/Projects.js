@@ -73,7 +73,7 @@ const Projects = () => {
             <div className="card hvr-grow">
               <div className="card-image">
                 <figure className="image is-4by3">
-                  <img src="./top-image/invasion-cropped.png" alt="Placeholder image" />
+                  <img src="./top-image/invasion-cropped.png" alt="invasion-game-screen" />
                 </figure>
               </div>
               <div className="card-content">
@@ -121,7 +121,7 @@ const Projects = () => {
             <div className="card hvr-grow">
               <div className="card-image">
                 <figure className="image is-4by3">
-                  <img src="./top-image/heroes-vs-villains-cropped.png" alt="Placeholder image" />
+                  <img src="./top-image/heroes-vs-villains-cropped.png" alt="heroes-vs-villains-logo" />
                 </figure>
               </div>
               <div className="card-content">
@@ -172,7 +172,7 @@ const Projects = () => {
             <div className="card hvr-grow">
               <div className="card-image">
                 <figure className="image is-4by3">
-                  <img src="./top-image/park-my-bike.png" alt="Placeholder image" />
+                  <img src="./top-image/park-my-bike.png" alt="park-my-bike-logo" />
                 </figure>
               </div>
               <div className="card-content">
@@ -222,7 +222,7 @@ const Projects = () => {
             <div className="card hvr-grow">
               <div className="card-image">
                 <figure className="image is-4by3">
-                  <img src="./top-image/the-kitchen-cropped.png" alt="Placeholder image" />
+                  <img src="./top-image/the-kitchen-cropped.png" alt="the-kitchen-logo" />
                 </figure>
               </div>
               <div className="card-content">
@@ -278,14 +278,14 @@ const Projects = () => {
             <div className="card hvr-grow">
               <div className="card-image">
                 <figure className="image is-4by3">
-                  <img src="./top-image/tripbit-cropped.png" alt="Placeholder image" />
+                  <img src="./top-image/tripbit-cropped.png" alt="tripbit-logo" />
                 </figure>
               </div>
               <div className="card-content">
                 <div className="media">
                   <div className="media-left">
                     <figure className="image is-48x48">
-                      <img src="../images/4-user-icon.png" alt="Placeholder image" />
+                      <img src="./top-image/4-user-icon.png" alt="four-team-icon" />
                     </figure>
                   </div>
                   <div className="media-content">
