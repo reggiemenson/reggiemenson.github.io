@@ -14,6 +14,7 @@ const About = () => {
               width="65" height="65" viewBox="0 0 598.000000 552.000000"
               preserveAspectRatio="xMidYMid meet">
               <metadata>
+              Icon created by freepik
               Created by potrace 1.15, written by Peter Selinger 2001-2017
               </metadata>
               <g transform="translate(0.000000,552.000000) scale(0.100000,-0.100000)"
@@ -59,6 +60,7 @@ const About = () => {
               width="65" height="65" viewBox="0 0 564.000000 532.000000"
               preserveAspectRatio="xMidYMid meet">
               <metadata>
+              Icon created by Good Ware
               Created by potrace 1.15, written by Peter Selinger 2001-2017
               </metadata>
               <g transform="translate(0.000000,532.000000) scale(0.100000,-0.100000)"
@@ -132,6 +134,7 @@ const About = () => {
  width="65" height="65" viewBox="0 0 568.000000 534.000000"
  preserveAspectRatio="xMidYMid meet">
 <metadata>
+Icon created by monkik
 Created by potrace 1.15, written by Peter Selinger 2001-2017
 </metadata>
 <g transform="translate(0.000000,534.000000) scale(0.100000,-0.100000)"

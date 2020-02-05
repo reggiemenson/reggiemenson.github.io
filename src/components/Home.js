@@ -3,13 +3,20 @@ import React from 'react'
 import Image from './Background'
 
 const Home = () => {
+  const handleMenu = () => {
+    const burger = document.querySelector('.burger')
+    const menuList = document.querySelector('#' + burger.dataset.target)
+
+    burger.classList.toggle('is-active')
+    menuList.classList.toggle('is-active')
+  }
 
   return (<section className="hero is-fullheight" id="top">
     <div className="hero-head">
       <nav className="navbar is-fixed-top is-transparent is-boxed">
         <div className="container">
           <div className="navbar-brand">
-            <span className="navbar-burger burger" data-target="navbarMenuHeroB">
+            <span className="navbar-burger burger" data-target="navbarMenuHeroB" onClick={handleMenu}>
               <span></span>
               <span></span>
               <span></span>

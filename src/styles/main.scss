@@ -1,14 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis|PT+Sans+Narrow|Playfair+Display|Quicksand&display=swap');
 
-// font-family: 'Playfair Display', serif; #1
-// font-family: 'Quicksand', sans-serif; #bulma-y
-// font-family: 'PT Sans Narrow', sans-serif; 
-// font-family: 'Dosis', sans-serif; #bulma similar (more round)
-
 #root {
   font-family: 'Playfair Display', serif;
 }
-
 
 ////---------------------menu----/
 
@@ -124,14 +118,6 @@ div.tile.is-parent.skills {
   padding: 2rem;
 }
 
-// div.tile-top {
-//   border-bottom: 0.3rem solid black;
-// }
-
-// div.tile-left {
-//   border-right: 0.3rem solid black;
-// }
-
 //icons-------------/
 
 i {
@@ -147,11 +133,6 @@ div.project-title {
 div.project-tile {
   height: 100%;
 }
-
-// div.project-header {
-//   // border-right: 0.3rem solid black;
-//   border-bottom: 0.3rem solid black;
-// }
 
 .tech-used {
   padding: 10px;
@@ -270,9 +251,6 @@ div.card-footer-item {
 div.title.main {
   width: 21rem;
 }
-
-// background: linear-gradient(270deg, #602466, #242e66);
-// background-size: 400% 400%;
 
 
 @-webkit-keyframes grow {

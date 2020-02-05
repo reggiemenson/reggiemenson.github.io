@@ -2,12 +2,13 @@ import React from 'react'
 
 const Image = () => {
   return (<svg className="main-logo" version="1.0" xmlns="http://www.w3.org/2000/svg"
-      width="100%" height="100%" viewBox="0 0 726.000000 1280.000000"
-      preserveAspectRatio="xMidYMid meet">
-      <metadata>
+    width="100%" height="100%" viewBox="0 0 726.000000 1280.000000"
+    preserveAspectRatio="xMidYMid meet">
+    <metadata>
+    Credit: Image as used on minelockscreen.tumblr.com
       Created by potrace 1.15, written by Peter Selinger 2001-2017
-      </metadata>
-      <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)"
+    </metadata>
+    <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)"
       fill="#000000" stroke="none">
       <path d="M3425 10290 c-3 -5 -5 -123 -4 -260 1 -138 0 -253 -3 -256 -3 -3 -42
       -14 -86 -24 -179 -43 -376 -154 -514 -291 -43 -42 -78 -81 -78 -86 0 -5 14
@@ -42,7 +43,7 @@ const Image = () => {
       -40 71 -32 22 -68 21 -107 -2z"/>
       <path d="M4136 7319 c-54 -42 -19 -129 51 -129 37 0 73 38 73 77 0 31 -42 73
       -73 73 -13 0 -36 -9 -51 -21z"/>
-      </g>
+    </g>
   </svg>)
 }
 
