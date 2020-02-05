@@ -73,7 +73,7 @@ const Projects = () => {
             <div className="card hvr-grow">
               <div className="card-image">
                 <figure className="image is-4by3">
-                  <img src="../images/invasion-cropped.png" alt="Placeholder image" />
+                  <img src="./top-image/invasion-cropped.png" alt="Placeholder image" />
                 </figure>
               </div>
               <div className="card-content">
@@ -121,7 +121,7 @@ const Projects = () => {
             <div className="card hvr-grow">
               <div className="card-image">
                 <figure className="image is-4by3">
-                  <img src="../images/heroes-vs-villains-cropped.png" alt="Placeholder image" />
+                  <img src="./top-image/heroes-vs-villains-cropped.png" alt="Placeholder image" />
                 </figure>
               </div>
               <div className="card-content">
@@ -172,7 +172,7 @@ const Projects = () => {
             <div className="card hvr-grow">
               <div className="card-image">
                 <figure className="image is-4by3">
-                  <img src="../images/park-my-bike.png" alt="Placeholder image" />
+                  <img src="./top-image/park-my-bike.png" alt="Placeholder image" />
                 </figure>
               </div>
               <div className="card-content">
@@ -222,7 +222,7 @@ const Projects = () => {
             <div className="card hvr-grow">
               <div className="card-image">
                 <figure className="image is-4by3">
-                  <img src="../images/the-kitchen-cropped.png" alt="Placeholder image" />
+                  <img src="./top-image/the-kitchen-cropped.png" alt="Placeholder image" />
                 </figure>
               </div>
               <div className="card-content">
@@ -278,7 +278,7 @@ const Projects = () => {
             <div className="card hvr-grow">
               <div className="card-image">
                 <figure className="image is-4by3">
-                  <img src="../images/tripbit-cropped.png" alt="Placeholder image" />
+                  <img src="./top-image/tripbit-cropped.png" alt="Placeholder image" />
                 </figure>
               </div>
               <div className="card-content">
