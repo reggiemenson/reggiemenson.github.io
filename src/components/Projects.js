@@ -99,103 +99,115 @@ const Projects = () => {
           </div>
 
         </div>
+        <div className="columns">
+          <div className="column is-one-quarter">
+            <div className="card hvr-grow">
+              <div className="card-image">
+                <figure className="image is-4by3">
+                  <img src="./top-image/tripbit-cropped.png" alt="tripbit-logo" />
+                </figure>
+              </div>
+              <div className="card-content">
+                <div className="media">
+                  <div className="media-left">
+                    <figure className="image is-48x48">
+                      <img src="./top-image/4-user-icon.png" alt="four-team-icon" />
+                    </figure>
+                  </div>
+                  <div className="media-content">
+                    <p className="title is-4">TripBit</p>
+                    <p className="subtitle is-6">Project-4</p>
+                  </div>
+                </div>
+                <div className="content">
+                  <div className="columns is-mobile is-multiline is-vcentered is-centered">
+                    <div className="column is-narrow">
+                      <a href="https://github.com/mr-anansi/tripbit" target="_blank" rel="noopener noreferrer"><i className="skills-icon devicon-github-plain fa-2x"></i></a>
+                      <div><a href="https://github.com/mr-anansi/tripbit" target="_blank" rel="noopener noreferrer">ReadMe</a></div>
+                    </div>
+                    <div className="column is-narrow">
+                      <div>
+                        <a href="https://tripbit4.herokuapp.com" target="_blank" rel="noopener noreferrer"><i className="skills-icon fab fa-chrome fa-2x"></i></a>
+                        <div><a href="https://tripbit4.herokuapp.com" target="_blank" rel="noopener noreferrer">Website</a></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="content descrip">
+                  Our final project full-stack app, built with a React.js frontend and a Django/Python backend.
+                </div>
+                <div className="tech-display">{tech5}</div>
+              </div>
+              <div className="card-footer">
+                <div className="card-footer-item tech-used">
+                  <i className="proskill devicon-html5-plain" value='tech5' name='HTML5' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-css3-plain" value='tech5' name='CSS3' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-react-original" value='tech5' name='React.js' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-babel-plain" value='tech5' name='Babel' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill fab fa-yarn" value='tech5' name='Yarn' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-webpack-plain" value='tech5' name='Webpack' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-django-plain" value='tech5' name='Django' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-python-plain" value='tech5' name='Python' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-postgresql-plain" value='tech5' name='PostgreSQL' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-heroku-original" value='tech5' name='Heroku' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-trello-plain" value='tech5' name='Trello' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                </div>
+              </div>
+            </div>
+          </div>          
+        </div>
 
         <div className="columns">
           <div className="column">
             <div className="card hvr-grow">
               <div className="card-image">
                 <figure className="image is-4by3">
-                  <img src="./top-image/invasion-cropped.png" alt="invasion-game-screen" />
+                  <img src="./top-image/the-kitchen-cropped.png" alt="the-kitchen-logo" />
                 </figure>
               </div>
               <div className="card-content">
                 <div className="media">
                   <div className="media-left">
                     <figure className="image is-48x48">
-                      <i className="fas fa-user fa-2x"></i>
+                      <i className="fas fa-users fa-2x"></i>
                     </figure>
                   </div>
                   <div className="media-content">
-                    <p className="title is-4">Invasion</p>
-                    <p className="subtitle is-6">Project-1</p>
+                    <p className="title is-4">the-kitchen</p>
+                    <p className="subtitle is-6">Project-3</p>
                   </div>
                 </div>
                 <div className="content">
                   <div className="columns is-mobile is-multiline is-vcentered is-centered">
                     <div className="column is-narrow">
-                      <a href="https://github.com/mr-anansi/invasion" target="_blank" rel="noopener noreferrer"><i className="skills-icon devicon-github-plain fa-2x"></i></a>
-                      <div><a href="https://github.com/mr-anansi/invasion" target="_blank" rel="noopener noreferrer">ReadMe</a></div>
+                      <a href="https://github.com/mr-anansi/the-kitchen" target="_blank" rel="noopener noreferrer"><i className="skills-icon devicon-github-plain fa-2x"></i></a>
+                      <div><a href="https://github.com/mr-anansi/the-kitchen" target="_blank" rel="noopener noreferrer">ReadMe</a></div>
                     </div>
                     <div className="column is-narrow">
                       <div>
-                        <a href="https://reggiemenson.com/invasion" target="_blank" rel="noopener noreferrer"><i className="skills-icon fab fa-chrome fa-2x"></i></a>
-                        <div><a href="https://reggiemenson.com/invasion" target="_blank" rel="noopener noreferrer">Website</a></div>
+                        <a href="https://the-kitchen-p3.herokuapp.com" target="_blank" rel="noopener noreferrer"><i className="skills-icon fab fa-chrome fa-2x"></i></a>
+                        <div><a href="https://the-kitchen-p3.herokuapp.com" target="_blank" rel="noopener noreferrer">Website</a></div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className="content descrip">
-                  A recreation of Space Invaders using HTML, CSS3 and Vanilla JavaScript.
+                  Our first full stack app - built with a React.js frontend and an Node/Express backend. Components were created with React Hooks.
                 </div>
-                <div className="tech-display">{tech1}</div>
+                <div className="tech-display">{tech4}</div>
               </div>
               <div className="card-footer">
                 <div className="card-footer-item tech-used">
-                  <i className="proskill devicon-html5-plain" value='tech1' name='HTML5' onMouseEnter={highlight} onMouseLeave={reset}></i>
-                  <i className="proskill devicon-css3-plain" value='tech1' name='CSS3' onMouseEnter={highlight} onMouseLeave={reset}></i>
-                  <i className="proskill devicon-javascript-plain" value='tech1' name='JavaScript' onMouseEnter={highlight} onMouseLeave={reset}></i>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-          <div className="column">
-            <div className="card hvr-grow">
-              <div className="card-image">
-                <figure className="image is-4by3">
-                  <img src="./top-image/heroes-vs-villains-cropped.png" alt="heroes-vs-villains-logo" />
-                </figure>
-              </div>
-              <div className="card-content">
-                <div className="media">
-                  <div className="media-left">
-                    <figure className="image is-48x48">
-                      <i className="fas fa-user fa-2x"></i>
-                    </figure>
-                  </div>
-                  <div className="media-content">
-                    <p className="title is-5">Heroes-VS-Villains</p>
-                    <p className="subtitle is-6">Project-X</p>
-                  </div>
-                </div>
-                <div className="content">
-                  <div className="columns is-mobile is-multiline is-vcentered is-centered">
-                    <div className="column is-narrow">
-                      <a href="https://github.com/mr-anansi/heroes-vs-villains" target="_blank" rel="noopener noreferrer"><i className="skills-icon devicon-github-plain fa-2x"></i></a>
-                      <div><a href="https://github.com/mr-anansi/heroes-vs-villains" target="_blank" rel="noopener noreferrer">ReadMe</a></div>
-                    </div>
-                    <div className="column is-narrow">
-                      <div>
-                        <a href="https://reggiemenson.com/heroes-vs-villains" target="_blank" rel="noopener noreferrer"><i className="skills-icon fab fa-chrome fa-2x"></i></a>
-                        <div><a href="https://reggiemenson.com/heroes-vs-villains" target="_blank" rel="noopener noreferrer">Website</a></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="content descrip">
-                  A React.js project created as an additional project to practice React principles and API integration.
-                </div>
-                <div className="tech-display">{tech2}</div>
-              </div>
-              <div className="card-footer">
-                <div className="card-footer-item tech-used">
-                  <i className="proskill devicon-html5-plain" value='tech2' name='HTML5' onMouseEnter={highlight} onMouseLeave={reset}></i>
-                  <i className="proskill devicon-css3-plain" value='tech2' name='CSS3' onMouseEnter={highlight} onMouseLeave={reset}></i>
-                  <i className="proskill devicon-react-original" value='tech2' name='React.js' onMouseEnter={highlight} onMouseLeave={reset}></i>
-                  <i className="proskill devicon-babel-plain" value='tech2' name='Babel' onMouseEnter={highlight} onMouseLeave={reset}></i>
-                  <i className="proskill fab fa-npm" value='tech2' name='NPM' onMouseEnter={highlight} onMouseLeave={reset}></i>
-                  <i className="proskill devicon-webpack-plain" value='tech2' name='Webpack' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-html5-plain" value='tech4' name='HTML5' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-css3-plain" value='tech4' name='CSS3' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-react-original" value='tech4' name='React.js' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-babel-plain" value='tech4' name='Babel' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill fab fa-npm" value='tech4' name='NPM' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-webpack-plain" value='tech4' name='Webpack' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-express-original" value='tech4' name='Express.js' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-nodejs-plain" value='tech4' name='Node.js' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-mongodb-plain" value='tech4' name='MongoDB' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-heroku-original" value='tech4' name='Heroku' onMouseEnter={highlight} onMouseLeave={reset}></i>
                 </div>
               </div>
             </div>
@@ -253,119 +265,108 @@ const Projects = () => {
             </div>
           </div>
 
+
           <div className="column">
             <div className="card hvr-grow">
               <div className="card-image">
                 <figure className="image is-4by3">
-                  <img src="./top-image/the-kitchen-cropped.png" alt="the-kitchen-logo" />
+                  <img src="./top-image/heroes-vs-villains-cropped.png" alt="heroes-vs-villains-logo" />
                 </figure>
               </div>
               <div className="card-content">
                 <div className="media">
                   <div className="media-left">
                     <figure className="image is-48x48">
-                      <i className="fas fa-users fa-2x"></i>
+                      <i className="fas fa-user fa-2x"></i>
                     </figure>
                   </div>
                   <div className="media-content">
-                    <p className="title is-4">the-kitchen</p>
-                    <p className="subtitle is-6">Project-3</p>
+                    <p className="title is-5">Heroes-VS-Villains</p>
+                    <p className="subtitle is-6">Project-X</p>
                   </div>
                 </div>
                 <div className="content">
                   <div className="columns is-mobile is-multiline is-vcentered is-centered">
                     <div className="column is-narrow">
-                      <a href="https://github.com/mr-anansi/the-kitchen" target="_blank" rel="noopener noreferrer"><i className="skills-icon devicon-github-plain fa-2x"></i></a>
-                      <div><a href="https://github.com/mr-anansi/the-kitchen" target="_blank" rel="noopener noreferrer">ReadMe</a></div>
+                      <a href="https://github.com/mr-anansi/heroes-vs-villains" target="_blank" rel="noopener noreferrer"><i className="skills-icon devicon-github-plain fa-2x"></i></a>
+                      <div><a href="https://github.com/mr-anansi/heroes-vs-villains" target="_blank" rel="noopener noreferrer">ReadMe</a></div>
                     </div>
                     <div className="column is-narrow">
                       <div>
-                        <a href="https://the-kitchen-p3.herokuapp.com" target="_blank" rel="noopener noreferrer"><i className="skills-icon fab fa-chrome fa-2x"></i></a>
-                        <div><a href="https://the-kitchen-p3.herokuapp.com" target="_blank" rel="noopener noreferrer">Website</a></div>
+                        <a href="https://reggiemenson.com/heroes-vs-villains" target="_blank" rel="noopener noreferrer"><i className="skills-icon fab fa-chrome fa-2x"></i></a>
+                        <div><a href="https://reggiemenson.com/heroes-vs-villains" target="_blank" rel="noopener noreferrer">Website</a></div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className="content descrip">
-                  Our first full stack app - built with a React.js frontend and an Node/Express backend. Components were created with React Hooks.
+                  A React.js project created as an additional project to practice React principles and API integration.
                 </div>
-                <div className="tech-display">{tech4}</div>
+                <div className="tech-display">{tech2}</div>
               </div>
               <div className="card-footer">
                 <div className="card-footer-item tech-used">
-                  <i className="proskill devicon-html5-plain" value='tech4' name='HTML5' onMouseEnter={highlight} onMouseLeave={reset}></i>
-                  <i className="proskill devicon-css3-plain" value='tech4' name='CSS3' onMouseEnter={highlight} onMouseLeave={reset}></i>
-                  <i className="proskill devicon-react-original" value='tech4' name='React.js' onMouseEnter={highlight} onMouseLeave={reset}></i>
-                  <i className="proskill devicon-babel-plain" value='tech4' name='Babel' onMouseEnter={highlight} onMouseLeave={reset}></i>
-                  <i className="proskill fab fa-npm" value='tech4' name='NPM' onMouseEnter={highlight} onMouseLeave={reset}></i>
-                  <i className="proskill devicon-webpack-plain" value='tech4' name='Webpack' onMouseEnter={highlight} onMouseLeave={reset}></i>
-                  <i className="proskill devicon-express-original" value='tech4' name='Express.js' onMouseEnter={highlight} onMouseLeave={reset}></i>
-                  <i className="proskill devicon-nodejs-plain" value='tech4' name='Node.js' onMouseEnter={highlight} onMouseLeave={reset}></i>
-                  <i className="proskill devicon-mongodb-plain" value='tech4' name='MongoDB' onMouseEnter={highlight} onMouseLeave={reset}></i>
-                  <i className="proskill devicon-heroku-original" value='tech4' name='Heroku' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-html5-plain" value='tech2' name='HTML5' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-css3-plain" value='tech2' name='CSS3' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-react-original" value='tech2' name='React.js' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-babel-plain" value='tech2' name='Babel' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill fab fa-npm" value='tech2' name='NPM' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-webpack-plain" value='tech2' name='Webpack' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="column">
+            <div className="card hvr-grow">
+              <div className="card-image">
+                <figure className="image is-4by3">
+                  <img src="./top-image/invasion-cropped.png" alt="invasion-game-screen" />
+                </figure>
+              </div>
+              <div className="card-content">
+                <div className="media">
+                  <div className="media-left">
+                    <figure className="image is-48x48">
+                      <i className="fas fa-user fa-2x"></i>
+                    </figure>
+                  </div>
+                  <div className="media-content">
+                    <p className="title is-4">Invasion</p>
+                    <p className="subtitle is-6">Project-1</p>
+                  </div>
+                </div>
+                <div className="content">
+                  <div className="columns is-mobile is-multiline is-vcentered is-centered">
+                    <div className="column is-narrow">
+                      <a href="https://github.com/mr-anansi/invasion" target="_blank" rel="noopener noreferrer"><i className="skills-icon devicon-github-plain fa-2x"></i></a>
+                      <div><a href="https://github.com/mr-anansi/invasion" target="_blank" rel="noopener noreferrer">ReadMe</a></div>
+                    </div>
+                    <div className="column is-narrow">
+                      <div>
+                        <a href="https://reggiemenson.com/invasion" target="_blank" rel="noopener noreferrer"><i className="skills-icon fab fa-chrome fa-2x"></i></a>
+                        <div><a href="https://reggiemenson.com/invasion" target="_blank" rel="noopener noreferrer">Website</a></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="content descrip">
+                  A recreation of Space Invaders using HTML, CSS3 and Vanilla JavaScript.
+                </div>
+                <div className="tech-display">{tech1}</div>
+              </div>
+              <div className="card-footer">
+                <div className="card-footer-item tech-used">
+                  <i className="proskill devicon-html5-plain" value='tech1' name='HTML5' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-css3-plain" value='tech1' name='CSS3' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-javascript-plain" value='tech1' name='JavaScript' onMouseEnter={highlight} onMouseLeave={reset}></i>
                 </div>
               </div>
             </div>
           </div>
 
         </div>
-        <div className="columns">
-          <div className="column is-one-quarter">
-            <div className="card hvr-grow">
-              <div className="card-image">
-                <figure className="image is-4by3">
-                  <img src="./top-image/tripbit-cropped.png" alt="tripbit-logo" />
-                </figure>
-              </div>
-              <div className="card-content">
-                <div className="media">
-                  <div className="media-left">
-                    <figure className="image is-48x48">
-                      <img src="./top-image/4-user-icon.png" alt="four-team-icon" />
-                    </figure>
-                  </div>
-                  <div className="media-content">
-                    <p className="title is-4">TripBit</p>
-                    <p className="subtitle is-6">Project-4</p>
-                  </div>
-                </div>
-                <div className="content">
-                  <div className="columns is-mobile is-multiline is-vcentered is-centered">
-                    <div className="column is-narrow">
-                      <a href="https://github.com/mr-anansi/tripbit" target="_blank" rel="noopener noreferrer"><i className="skills-icon devicon-github-plain fa-2x"></i></a>
-                      <div><a href="https://github.com/mr-anansi/tripbit" target="_blank" rel="noopener noreferrer">ReadMe</a></div>
-                    </div>
-                    <div className="column is-narrow">
-                      <div>
-                        <a href="https://tripbit4.herokuapp.com" target="_blank" rel="noopener noreferrer"><i className="skills-icon fab fa-chrome fa-2x"></i></a>
-                        <div><a href="https://tripbit4.herokuapp.com" target="_blank" rel="noopener noreferrer">Website</a></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="content descrip">
-                  Our final project full-stack app, built with a React.js frontend and a Django/Python backend.
-                </div>
-                <div className="tech-display">{tech5}</div>
-              </div>
-              <div className="card-footer">
-                <div className="card-footer-item tech-used">
-                  <i className="proskill devicon-html5-plain" value='tech5' name='HTML5' onMouseEnter={highlight} onMouseLeave={reset}></i>
-                  <i className="proskill devicon-css3-plain" value='tech5' name='CSS3' onMouseEnter={highlight} onMouseLeave={reset}></i>
-                  <i className="proskill devicon-react-original" value='tech5' name='React.js' onMouseEnter={highlight} onMouseLeave={reset}></i>
-                  <i className="proskill devicon-babel-plain" value='tech5' name='Babel' onMouseEnter={highlight} onMouseLeave={reset}></i>
-                  <i className="proskill fab fa-yarn" value='tech5' name='Yarn' onMouseEnter={highlight} onMouseLeave={reset}></i>
-                  <i className="proskill devicon-webpack-plain" value='tech5' name='Webpack' onMouseEnter={highlight} onMouseLeave={reset}></i>
-                  <i className="proskill devicon-django-plain" value='tech5' name='Django' onMouseEnter={highlight} onMouseLeave={reset}></i>
-                  <i className="proskill devicon-python-plain" value='tech5' name='Python' onMouseEnter={highlight} onMouseLeave={reset}></i>
-                  <i className="proskill devicon-postgresql-plain" value='tech5' name='PostgreSQL' onMouseEnter={highlight} onMouseLeave={reset}></i>
-                  <i className="proskill devicon-heroku-original" value='tech5' name='Heroku' onMouseEnter={highlight} onMouseLeave={reset}></i>
-                  <i className="proskill devicon-trello-plain" value='tech5' name='Trello' onMouseEnter={highlight} onMouseLeave={reset}></i>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        
 
       </div>
     </div>
