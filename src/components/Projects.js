@@ -1,8 +1,40 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 
 const Projects = () => {
+  const [tech1, setTech1] = useState('') 
+  const [tech2, setTech2] = useState('') 
+  const [tech3, setTech3] = useState('') 
+  const [tech4, setTech4] = useState('') 
+  const [tech5, setTech5] = useState('') 
 
+  function highlight(e){
+    switch (e.target.getAttribute('value')){
+      case 'tech1':
+        setTech1(e.target.getAttribute('name'))
+        break
+      case 'tech2':
+        setTech2(e.target.getAttribute('name'))
+        break
+      case 'tech3':
+        setTech3(e.target.getAttribute('name'))
+        break
+      case 'tech4':
+        setTech4(e.target.getAttribute('name'))
+        break
+      case 'tech5':
+        setTech5(e.target.getAttribute('name'))
+        break
+    }
+  }
+
+  function reset(){
+    setTech1('')
+    setTech2('')
+    setTech3('')
+    setTech4('')
+    setTech5('')
+  }
 
   return (
     <div className="section" id="projects">
@@ -105,12 +137,13 @@ const Projects = () => {
                 <div className="content descrip">
                   A recreation of Space Invaders using HTML, CSS3 and Vanilla JavaScript.
                 </div>
+                <div className="tech-display">{tech1}</div>
               </div>
               <div className="card-footer">
-                <div className="proskill card-footer-item tech-used">
-                  <i className="proskill devicon-html5-plain"></i>
-                  <i className="proskill devicon-css3-plain"></i>
-                  <i className="proskill devicon-javascript-plain"></i>
+                <div className="card-footer-item tech-used">
+                  <i className="proskill devicon-html5-plain" value='tech1' name='HTML5' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-css3-plain" value='tech1' name='CSS3' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-javascript-plain" value='tech1' name='JavaScript' onMouseEnter={highlight} onMouseLeave={reset}></i>
                 </div>
               </div>
             </div>
@@ -153,15 +186,16 @@ const Projects = () => {
                 <div className="content descrip">
                   A React.js project created as an additional project to practice React principles and API integration.
                 </div>
+                <div className="tech-display">{tech2}</div>
               </div>
               <div className="card-footer">
                 <div className="card-footer-item tech-used">
-                  <i className="proskill devicon-html5-plain"></i>
-                  <i className="proskill devicon-css3-plain"></i>
-                  <i className="proskill devicon-react-original"></i>
-                  <i className="proskill devicon-babel-plain"></i>
-                  <i className="proskill fab fa-npm"></i>
-                  <i className="proskill devicon-webpack-plain"></i>
+                  <i className="proskill devicon-html5-plain" value='tech2' name='HTML5' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-css3-plain" value='tech2' name='CSS3' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-react-original" value='tech2' name='React.js' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-babel-plain" value='tech2' name='Babel' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill fab fa-npm" value='tech2' name='NPM' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-webpack-plain" value='tech2' name='Webpack' onMouseEnter={highlight} onMouseLeave={reset}></i>
                 </div>
               </div>
             </div>
@@ -204,15 +238,16 @@ const Projects = () => {
                 <div className="content descrip">
                   A React.js app built for a class Hackathon. The project uses class structures and makes use of two APIs.
                 </div>
+                <div className="tech-display">{tech3}</div>
               </div>
               <div className="card-footer">
                 <div className="card-footer-item tech-used">
-                  <i className="proskill devicon-html5-plain"></i>
-                  <i className="proskill devicon-css3-plain"></i>
-                  <i className="proskill devicon-react-original"></i>
-                  <i className="proskill devicon-babel-plain"></i>
-                  <i className="proskill fab fa-npm"></i>
-                  <i className="proskill devicon-webpack-plain"></i>
+                  <i className="proskill devicon-html5-plain" value='tech3' name='HTML5' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-css3-plain" value='tech3' name='CSS3' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-react-original" value='tech3' name='React.js' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-babel-plain" value='tech3' name='Babel' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill fab fa-npm" value='tech3' name='NPM' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-webpack-plain" value='tech3' name='Webpack' onMouseEnter={highlight} onMouseLeave={reset}></i>
                 </div>
               </div>
             </div>
@@ -254,19 +289,20 @@ const Projects = () => {
                 <div className="content descrip">
                   Our first full stack app - built with a React.js frontend and an Node/Express backend. Components were created with React Hooks.
                 </div>
+                <div className="tech-display">{tech4}</div>
               </div>
               <div className="card-footer">
                 <div className="card-footer-item tech-used">
-                  <i className="proskill devicon-html5-plain"></i>
-                  <i className="proskill devicon-css3-plain"></i>
-                  <i className="proskill devicon-react-original"></i>
-                  <i className="proskill devicon-babel-plain"></i>
-                  <i className="proskill fab fa-npm"></i>
-                  <i className="proskill devicon-webpack-plain"></i>
-                  <i className="proskill devicon-express-original"></i>
-                  <i className="proskill devicon-nodejs-plain"></i>
-                  <i className="proskill devicon-mongodb-plain"></i>
-                  <i className="proskill devicon-heroku-original"></i>
+                  <i className="proskill devicon-html5-plain" value='tech4' name='HTML5' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-css3-plain" value='tech4' name='CSS3' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-react-original" value='tech4' name='React.js' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-babel-plain" value='tech4' name='Babel' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill fab fa-npm" value='tech4' name='NPM' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-webpack-plain" value='tech4' name='Webpack' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-express-original" value='tech4' name='Express.js' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-nodejs-plain" value='tech4' name='Node.js' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-mongodb-plain" value='tech4' name='MongoDB' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-heroku-original" value='tech4' name='Heroku' onMouseEnter={highlight} onMouseLeave={reset}></i>
                 </div>
               </div>
             </div>
@@ -310,20 +346,21 @@ const Projects = () => {
                 <div className="content descrip">
                   Our final project full-stack app, built with a React.js frontend and a Django/Python backend.
                 </div>
+                <div className="tech-display">{tech5}</div>
               </div>
               <div className="card-footer">
                 <div className="card-footer-item tech-used">
-                  <i className="proskill devicon-html5-plain"></i>
-                  <i className="proskill devicon-css3-plain"></i>
-                  <i className="proskill devicon-react-original"></i>
-                  <i className="proskill devicon-babel-plain"></i>
-                  <i className="proskill fab fa-yarn"></i>
-                  <i className="proskill devicon-webpack-plain"></i>
-                  <i className="proskill devicon-django-plain"></i>
-                  <i className="proskill devicon-python-plain"></i>
-                  <i className="proskill devicon-postgresql-plain"></i>
-                  <i className="proskill devicon-heroku-original"></i>
-                  <i className="proskill devicon-trello-plain"></i>
+                  <i className="proskill devicon-html5-plain" value='tech5' name='HTML5' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-css3-plain" value='tech5' name='CSS3' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-react-original" value='tech5' name='React.js' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-babel-plain" value='tech5' name='Babel' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill fab fa-yarn" value='tech5' name='Yarn' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-webpack-plain" value='tech5' name='Webpack' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-django-plain" value='tech5' name='Django' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-python-plain" value='tech5' name='Python' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-postgresql-plain" value='tech5' name='PostgreSQL' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-heroku-original" value='tech5' name='Heroku' onMouseEnter={highlight} onMouseLeave={reset}></i>
+                  <i className="proskill devicon-trello-plain" value='tech5' name='Trello' onMouseEnter={highlight} onMouseLeave={reset}></i>
                 </div>
               </div>
             </div>

@@ -68,9 +68,7 @@ const Skills = () => {
                 </g>
               </svg>
             </figure>
-            <div className="subtitle">
-              Skills
-            </div>
+            <h3 className="subtitle">Skills</h3>
           </div>
         </div>
         <div className="tile is-parent">

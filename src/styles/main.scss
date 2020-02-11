@@ -53,10 +53,6 @@ hr {
   transition: .3s ease-in-out;
 }
 
-// a {
-//   color: black;
-// }
-
 a:hover {
   color: #f43b47;
 }
@@ -149,7 +145,7 @@ div.project-tile {
 }
 
 .skill-cat {
-  padding-bottom: 1rem;
+  padding-bottom: 3rem;
 }
 
 .skill-icon {
@@ -179,9 +175,51 @@ div.tile.is-parent.skill-tile {
   padding-bottom: 0;
 }
 
+div.tech-display {
+  height: 0.2rem;
+  text-align: center;
+  color: #e8c020;
+  font-weight: bold;
+}
+
 #skill {
   padding-top: 0;
 }
+
+//line draw skill working
+
+// skillicons {
+//   display:block;
+//   position:absolute;
+//   top:45%;
+//   left:50%;
+//   border-bottom:4px solid red;
+//   width:0%;
+//   text-align:center;
+//   animation: line 2s linear forwards;
+// }
+
+// @keyframes line {
+//   from {
+//     left:50%;
+//     width:0%;
+//   }
+//   to {
+//     left:5%;
+//     width:90%;
+//   }
+// }
+
+//--------------
+
+// i.skills-icon:hover {
+//   color: #242e66;
+//   text-shadow:0px 0px 30px #242e66;
+//   -moz-transition: all 0.2s ease-in;
+//   -o-transition: all 0.2s ease-in;
+//   -webkit-transition: all 0.2s ease-in;
+//   transition: all 0.2s ease-in;
+// }
 
 //-----------project----//
 
@@ -214,6 +252,15 @@ div.card-footer-item {
   flex-flow: wrap;
 }
 
+.card {
+  a {
+    color: black;
+  }
+  a:hover {
+    color: #e8c020;
+  }
+}
+
 //------FOOTER----//
 
 
@@ -240,9 +287,7 @@ div.card-footer-item {
   width: 100%;
   height: 4px;
   border-radius: 2px;
-  background: linear-gradient(270deg, #602466, #242e66);
-  -webkit-animation: gradient-pulse 10s ease infinite;
-  animation: gradient-pulse 10s ease infinite;
+  background: #e8c020;
   animation: grow 3s ease-in-out;
   -webkit-animation: grow 3s ease-in-out;
   margin-top: 5px
@@ -261,18 +306,6 @@ div.title.main {
     0%{width: 0}
     100%{width: 100%}
 }
-
-@-webkit-keyframes gradient-pulse {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@keyframes gradient-pulse {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-
 
 //------MOBILE-------///
 
