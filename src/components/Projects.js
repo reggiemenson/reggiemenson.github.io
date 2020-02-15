@@ -122,13 +122,17 @@ const Projects = () => {
                 <div className="content">
                   <div className="columns is-mobile is-multiline is-vcentered is-centered">
                     <div className="column is-narrow">
-                      <a href="https://github.com/mr-anansi/tripbit" target="_blank" rel="noopener noreferrer"><i className="skills-icon devicon-github-plain fa-2x"></i></a>
-                      <div><a href="https://github.com/mr-anansi/tripbit" target="_blank" rel="noopener noreferrer">ReadMe</a></div>
+                      <a href="https://github.com/mr-anansi/tripbit" target="_blank" rel="noopener noreferrer">
+                        <i className="skills-icon devicon-github-plain fa-2x"/>
+                        <p>ReadMe</p>
+                      </a>
                     </div>
                     <div className="column is-narrow">
                       <div>
-                        <a href="https://tripbit4.herokuapp.com" target="_blank" rel="noopener noreferrer"><i className="skills-icon fab fa-chrome fa-2x"></i></a>
-                        <div><a href="https://tripbit4.herokuapp.com" target="_blank" rel="noopener noreferrer">Website</a></div>
+                        <a href="https://tripbit4.herokuapp.com" target="_blank" rel="noopener noreferrer">
+                          <i className="skills-icon fab fa-chrome fa-2x"/>
+                          <p>Website</p>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -180,13 +184,17 @@ const Projects = () => {
                 <div className="content">
                   <div className="columns is-mobile is-multiline is-vcentered is-centered">
                     <div className="column is-narrow">
-                      <a href="https://github.com/mr-anansi/the-kitchen" target="_blank" rel="noopener noreferrer"><i className="skills-icon devicon-github-plain fa-2x"></i></a>
-                      <div><a href="https://github.com/mr-anansi/the-kitchen" target="_blank" rel="noopener noreferrer">ReadMe</a></div>
+                      <a href="https://github.com/mr-anansi/the-kitchen" target="_blank" rel="noopener noreferrer">
+                        <i className="skills-icon devicon-github-plain fa-2x"/>
+                        <p>ReadMe</p>
+                      </a>
                     </div>
                     <div className="column is-narrow">
                       <div>
-                        <a href="https://the-kitchen-p3.herokuapp.com" target="_blank" rel="noopener noreferrer"><i className="skills-icon fab fa-chrome fa-2x"></i></a>
-                        <div><a href="https://the-kitchen-p3.herokuapp.com" target="_blank" rel="noopener noreferrer">Website</a></div>
+                        <a href="https://the-kitchen-p3.herokuapp.com" target="_blank" rel="noopener noreferrer">
+                          <i className="skills-icon fab fa-chrome fa-2x"/>
+                          <p>Website</p>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -236,13 +244,16 @@ const Projects = () => {
                 <div className="content">
                   <div className="columns is-mobile is-multiline is-vcentered is-centered">
                     <div className="column is-narrow">
-                      <a href="https://github.com/mr-anansi/park-my-bike" target="_blank" rel="noopener noreferrer"><i className="skills-icon devicon-github-plain fa-2x"></i></a>
-                      <div><a href="https://github.com/mr-anansi/park-my-bike" target="_blank" rel="noopener noreferrer">ReadMe</a></div>
+                      <a href="https://github.com/mr-anansi/park-my-bike" target="_blank" rel="noopener noreferrer">
+                        <i className="skills-icon devicon-github-plain fa-2x"/>
+                        <p>ReadMe</p>
+                      </a>
                     </div>
                     <div className="column is-narrow">
                       <div>
-                        <a href="https://reggiemenson.com/park-my-bike" target="_blank" rel="noopener noreferrer"><i className="skills-icon fab fa-chrome fa-2x"></i></a>
-                        <div><a href="https://reggiemenson.com/park-my-bike" target="_blank" rel="noopener noreferrer">Website</a></div>
+                        <a href="https://reggiemenson.com/park-my-bike" target="_blank" rel="noopener noreferrer"><i className="skills-icon fab fa-chrome fa-2x"/>
+                          <p>Website</p>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -288,13 +299,15 @@ const Projects = () => {
                 <div className="content">
                   <div className="columns is-mobile is-multiline is-vcentered is-centered">
                     <div className="column is-narrow">
-                      <a href="https://github.com/mr-anansi/heroes-vs-villains" target="_blank" rel="noopener noreferrer"><i className="skills-icon devicon-github-plain fa-2x"></i></a>
-                      <div><a href="https://github.com/mr-anansi/heroes-vs-villains" target="_blank" rel="noopener noreferrer">ReadMe</a></div>
+                      <a href="https://github.com/mr-anansi/heroes-vs-villains" target="_blank" rel="noopener noreferrer"><i className="skills-icon devicon-github-plain fa-2x"/>
+                        <p>ReadMe</p>
+                      </a>
                     </div>
                     <div className="column is-narrow">
                       <div>
-                        <a href="https://reggiemenson.com/heroes-vs-villains" target="_blank" rel="noopener noreferrer"><i className="skills-icon fab fa-chrome fa-2x"></i></a>
-                        <div><a href="https://reggiemenson.com/heroes-vs-villains" target="_blank" rel="noopener noreferrer">Website</a></div>
+                        <a href="https://reggiemenson.com/heroes-vs-villains" target="_blank" rel="noopener noreferrer"><i className="skills-icon fab fa-chrome fa-2x"/>
+                          <p>Website</p>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -339,13 +352,17 @@ const Projects = () => {
                 <div className="content">
                   <div className="columns is-mobile is-multiline is-vcentered is-centered">
                     <div className="column is-narrow">
-                      <a href="https://github.com/mr-anansi/invasion" target="_blank" rel="noopener noreferrer"><i className="skills-icon devicon-github-plain fa-2x"></i></a>
-                      <div><a href="https://github.com/mr-anansi/invasion" target="_blank" rel="noopener noreferrer">ReadMe</a></div>
+                      <a href="https://github.com/mr-anansi/invasion" target="_blank" rel="noopener noreferrer">
+                        <i className="skills-icon devicon-github-plain fa-2x"/>
+                        <p>ReadMe</p>
+                      </a>
                     </div>
                     <div className="column is-narrow">
                       <div>
-                        <a href="https://reggiemenson.com/invasion" target="_blank" rel="noopener noreferrer"><i className="skills-icon fab fa-chrome fa-2x"></i></a>
-                        <div><a href="https://reggiemenson.com/invasion" target="_blank" rel="noopener noreferrer">Website</a></div>
+                        <a href="https://reggiemenson.com/invasion" target="_blank" rel="noopener noreferrer">
+                          <i className="skills-icon fab fa-chrome fa-2x"/>
+                          <p>Website</p>
+                        </a>
                       </div>
                     </div>
                   </div>

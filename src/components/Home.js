@@ -26,7 +26,7 @@ const Home = () => {
             <div className="navbar-end">
               <div className="navbar-custom">
                 <a href="#top" className="navbar-item is-active">
-                  Top
+                  Home
                 </a>
                 <a href="#profile" className="navbar-item two">
                   Profile
