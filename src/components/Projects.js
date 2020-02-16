@@ -103,13 +103,21 @@ const Projects = () => {
         {/* <div className="columns">
           <div className="column is-one-quarter"> */}
         <CarouselProvider
-          naturalSlideWidth={90}
-          naturalSlideHeight={160}
+          naturalSlideWidth={75}
+          naturalSlideHeight={140}
           visibleSlides={3}
           totalSlides={5}
           touchEnabled={true}
-          dragEnabled={true}
-          infinite={true}>
+          dragEnabled={true}>
+          <div className="controls">
+            <div className="directions">
+              <ButtonBack className="buttonS"><i className="fa fa-chevron-left" /></ButtonBack>
+            </div>
+            <div className="directions">
+              <ButtonNext className="buttonS"><i className="fa fa-chevron-right" /></ButtonNext>
+            </div>
+          </div>
+
           <Slider>
             <div className="columns">
               <Slide index={0}>
@@ -397,8 +405,6 @@ const Projects = () => {
               </Slide>
             </div>
           </Slider>
-          <ButtonBack>Back</ButtonBack>
-          <ButtonNext>Next</ButtonNext>
         </CarouselProvider>
 
         {/* </div>          
