@@ -44,10 +44,12 @@ const Contact = () => {
                 <div className="tile is-parent">
                   <div className="tile is-child">
                     <div className="content has-text-centered">
-                      <h4>
-                        <strong>Reggie Tachie-Menson</strong>
-                      </h4>
-                      <p><strong>Junior Developer</strong></p>
+                      <p>
+                        <a href="https://github.com/mr-anansi" target="_blank" rel="noopener noreferrer">
+                          <i className="skills-icon devicon-github-plain fa-2x"/>
+                          <span className="social">github.com/mr-anansi</span>
+                        </a>  
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -73,12 +75,10 @@ const Contact = () => {
                   <div className="tile is-child">
                     <div className="content">
                       <p>
-                        <a href="https://github.com/mr-anansi" target="_blank" rel="noopener noreferrer"><i className="skills-icon devicon-github-plain fa-2x"></i></a>
-                        <a href="https://github.com/mr-anansi" target="_blank" rel="noopener noreferrer"><span className="social">github.com/mr-anansi</span></a>  
-                      </p>
-                      <p>
-                        <a href="https://linkedin.com/in/reggiemenson" target="_blank" rel="noopener noreferrer"><i className="skills-icon fab fa-linkedin fa-2x"></i></a>
-                        <a href="https://linkedin.com/in/reggiemenson" target="_blank" rel="noopener noreferrer"><span className="social">linkedin.com/in/reggiemenson</span></a>
+                        <a href="https://linkedin.com/in/reggiemenson" target="_blank" rel="noopener noreferrer">
+                          <i className="skills-icon fab fa-linkedin fa-2x"/>
+                          <span className="social">linkedin.com/in/reggiemenson</span>
+                        </a>
                       </p>
                     </div>
                   </div>

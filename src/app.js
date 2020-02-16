@@ -7,6 +7,8 @@ import About from './components/About'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Skills from './components/Skills'
+import First from './components/First'
+import Second from './components/Second'
 
 
 import 'bulma'
@@ -15,8 +17,10 @@ import './styles/main.scss'
 const App = () => (
   <div>
     <Home/>
+    <First/>
     <About/>
     <Skills/>
+    <Second/>
     <Projects/>
     <Contact/>
   </div>

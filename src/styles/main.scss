@@ -4,6 +4,10 @@
   font-family: 'Playfair Display', serif;
 }
 
+html, body {
+  scroll-behavior: smooth;
+}
+
 ////---------------------menu----/
 
 * {
@@ -72,7 +76,15 @@ svg.main-logo {
   padding-top: 0;
 }
 
+//------svg-test
 
+svg.test-svg {
+  g{
+    path {
+      stroke-dasharray: 20;
+    }
+  }
+}
 
 //cards
 
@@ -207,6 +219,14 @@ div.tech-display {
 //   to {
 //     left:5%;
 //     width:90%;
+//   }
+// }
+
+// second attempt -----------------------------//
+
+// svg.main-logo {
+//   path {
+    
 //   }
 // }
 
