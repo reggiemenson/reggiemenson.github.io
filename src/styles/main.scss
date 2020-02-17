@@ -62,13 +62,13 @@ hr {
   margin: 0;
   background: #e8c020;
   border: none;
-  transition: 3s ease-in-out;
+  transition: .3s ease-in-out;
 }
 
 a:hover {
   color: #e8c020;
-  text-decoration: underline;
-  transition: 0.5s ease-in-out;
+  // text-decoration: underline;
+  // transition: 0.5s ease-in-out;
 }
 
 //-----------------------------------SVGs----------------------------------------------//
@@ -92,13 +92,16 @@ svg.main-logo {
 
 //--------------test-------------//
 
-svg.test-svg {
-  g{
-    path {
-      stroke-dasharray: 20;
-    }
-  }
-}
+// svg.test-svg {
+//   g{
+//     stroke: black;
+//     path {
+//       stroke: white;
+//       stroke-width: 2;
+//       stroke-dasharray: 20;
+//     }
+//   }
+// }
 
 //-----------------------------------HOME------------------------------------------------//
 
