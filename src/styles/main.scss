@@ -62,13 +62,13 @@ hr {
   margin: 0;
   background: #e8c020;
   border: none;
-  transition: 3s ease-in-out;
+  transition: .3s ease-in-out;
 }
 
 a:hover {
   color: #e8c020;
-  text-decoration: underline;
-  transition: 0.5s ease-in-out;
+  // text-decoration: underline;
+  // transition: 0.5s ease-in-out;
 }
 
 //-----------------------------------SVGs----------------------------------------------//
@@ -125,6 +125,10 @@ svg.test-svg {
 }
 
 //tiles
+
+div.about-panel {
+  height: 100%;
+}
 
 div.tile.is-parent.about {
   padding: 2rem;
@@ -323,6 +327,10 @@ div.card-footer-item {
 
 //-----------------------------------FOOTER/CONTACTS--------------------------------------//
 
+.test-logo-c, div.content{
+  text-align: center;
+}
+
 
 //----------------------------------------EFFECTS-----------------------------------------//
 
@@ -380,8 +388,28 @@ div.title.main {
     display: none; 
   }
 
-  .social {
-    font-size: 0.8rem;
+  // .social {
+  //   font-size: 0.8rem;
+  // }
+
+  .frontend-box {
+    border-right: none
+  }
+  
+  .backend-box {
+    border-right: none;
+  }
+
+
+}
+
+@media only screen and (max-width: 800px) {
+  svg.main-logo {
+    opacity: 0.4;
+  }
+
+  .vertical {
+    display: none; 
   }
 
   .frontend-box {

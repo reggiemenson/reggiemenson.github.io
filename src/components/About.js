@@ -48,7 +48,7 @@ const About = () => {
           </div>
         </div>
         <div className="horizontal"></div>
-        <div className="tile">
+        <div className="tile about-panel">
           <div className="tile is-parent about tile-left">
             <div className="tile is-child">
               <figure className="image is-square">

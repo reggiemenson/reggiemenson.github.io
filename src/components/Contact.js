@@ -7,6 +7,7 @@ const Contact = () => {
   return (
     <footer className="footer" id="contact">
       <div className="column">
+        <div className="test-logo-c">
         <figure className="image is-square">
         <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
             width="65" height="65" viewBox="0 0 332.000000 330.000000"
@@ -37,6 +38,7 @@ const Contact = () => {
           </svg>
         </figure>
         <h3 className="title">Contact</h3>
+        </div>
         <div className="column">
           <div className="columns">
             <div className="column">
@@ -44,12 +46,12 @@ const Contact = () => {
                 <div className="tile is-parent">
                   <div className="tile is-child">
                     <div className="content has-text-centered">
-                      <p>
+                      {/* <p> */}
                         <a href="https://github.com/mr-anansi" target="_blank" rel="noopener noreferrer">
                           <i className="skills-icon devicon-github-plain fa-2x"/>
                           <span className="social">github.com/mr-anansi</span>
                         </a>  
-                      </p>
+                      {/* </p> */}
                     </div>
                   </div>
                 </div>
@@ -61,7 +63,7 @@ const Contact = () => {
                   <div className="tile is-child">
                     <div className="content has-text-centered">
                       <i className="skills-icon fas fa-envelope fa-2x"></i>
-                      <span>
+                      <span className="social">
                         mrmenson@gmail.com
                       </span>
                     </div>
@@ -73,13 +75,13 @@ const Contact = () => {
               <div className="tile is-ancester is-vertical">
                 <div className="tile is-parent">
                   <div className="tile is-child">
-                    <div className="content">
-                      <p>
+                    <div className="content has-text-centered">
+                      {/* <p> */}
                         <a href="https://linkedin.com/in/reggiemenson" target="_blank" rel="noopener noreferrer">
                           <i className="skills-icon fab fa-linkedin fa-2x"/>
                           <span className="social">linkedin.com/in/reggiemenson</span>
                         </a>
-                      </p>
+                      {/* </p> */}
                     </div>
                   </div>
                 </div>
