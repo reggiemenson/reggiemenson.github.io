@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis|PT+Sans+Narrow|Playfair+Display|Quicksand&display=swap');
 
+//-----------------------------------page-level---------------------------------------//
+
+* {
+  box-sizing: border-box;
+}
+
 #root {
   font-family: 'Playfair Display', serif;
 }
@@ -8,15 +14,17 @@ html, body {
   scroll-behavior: smooth;
 }
 
-////---------------------menu----/
+//icons-------------/
 
-* {
-  box-sizing: border-box;
+i {
+  color: black;
 }
+
+//-----------------------------------NAV----------------------------------------------//
+
 
 div.navbar-end {
   width: 100%;
-  // margin: 0 auto;
 }
 
 div.navbar-item {
@@ -54,14 +62,20 @@ hr {
   margin: 0;
   background: #e8c020;
   border: none;
-  transition: .3s ease-in-out;
+  transition: 3s ease-in-out;
 }
 
 a:hover {
   color: #e8c020;
+  text-decoration: underline;
+  transition: 0.5s ease-in-out;
 }
 
-///svg
+//-----------------------------------SVGs----------------------------------------------//
+
+
+//--------------main-logo-------------//
+
 
 svg.main-logo {
   position: absolute;
@@ -76,7 +90,7 @@ svg.main-logo {
   padding-top: 0;
 }
 
-//------svg-test
+//--------------test-------------//
 
 svg.test-svg {
   g{
@@ -86,16 +100,10 @@ svg.test-svg {
   }
 }
 
-//cards
+//-----------------------------------HOME------------------------------------------------//
 
-.card {
-  min-height: 30em;
-  height: 100%;
-}
 
-.media {
-  height: 5em;
-}
+//-----------------------------------ABOUT-----------------------------------------------//
 
 //lines
 
@@ -126,27 +134,13 @@ div.tile.is-parent.skills {
   padding: 2rem;
 }
 
-//icons-------------/
-
-i {
-  color: black;
-}
-
-// -------project-title
-
-div.project-title {
-  padding: 0 1em 1em 0;
-}
-
-div.project-tile {
-  height: 100%;
-}
-
-.tech-used {
-  padding: 10px;
-}
+//-----------------------------------SKILLS----------------------------------------------//
 
 //-------skills---
+
+.sub-skills {
+  padding-left: 0.5rem;
+}
 
 .frontend-box {
   border-right: 0.3rem solid black;
@@ -198,48 +192,33 @@ div.tech-display {
   padding-top: 0;
 }
 
-//line draw skill working
 
-// skillicons {
-//   display:block;
-//   position:absolute;
-//   top:45%;
-//   left:50%;
-//   border-bottom:4px solid red;
-//   width:0%;
-//   text-align:center;
-//   animation: line 2s linear forwards;
-// }
+//-----------------------------------PROJECTS--------------------------------------------//
 
-// @keyframes line {
-//   from {
-//     left:50%;
-//     width:0%;
-//   }
-//   to {
-//     left:5%;
-//     width:90%;
-//   }
-// }
+//cards
 
-// second attempt -----------------------------//
+.card {
+  min-height: 30em;
+  height: 100%;
+}
 
-// svg.main-logo {
-//   path {
-    
-//   }
-// }
+.media {
+  height: 5em;
+}
 
-//--------------
+// -------project-title
 
-// i.skills-icon:hover {
-//   color: #242e66;
-//   text-shadow:0px 0px 30px #242e66;
-//   -moz-transition: all 0.2s ease-in;
-//   -o-transition: all 0.2s ease-in;
-//   -webkit-transition: all 0.2s ease-in;
-//   transition: all 0.2s ease-in;
-// }
+div.project-title {
+  padding: 0 1em 1em 0;
+}
+
+div.project-tile {
+  height: 100%;
+}
+
+.tech-used {
+  padding: 10px;
+}
 
 //-----------project----//
 
@@ -250,8 +229,6 @@ div.tech-display {
 .proskill {
   padding: 2px;
 }
-
-//-------cards-------//
 
 //--controls--//
 
@@ -308,9 +285,7 @@ body {
   }
 }
 
-//-----
-
-
+//-------cards-------//
 
 
 div.card {
@@ -345,8 +320,11 @@ div.card-footer-item {
   }
 }
 
-//------FOOTER----//
 
+//-----------------------------------FOOTER/CONTACTS--------------------------------------//
+
+
+//----------------------------------------EFFECTS-----------------------------------------//
 
 //---effects---------//
 
