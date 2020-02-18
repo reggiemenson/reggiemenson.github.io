@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import ReactDOM from 'react-dom'
 // import { HashRouter, Switch, Route } from 'react-router-dom'
 
@@ -14,17 +14,32 @@ import Second from './components/Second'
 import 'bulma'
 import './styles/main.scss'
 
-const App = () => (
-  <div>
+const App = () => {
+  const [scroll, setScroll] = useState(0)
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll)
+  }, [])
+  
+  function handleScroll() {
+    setScroll(window.scrollY)
+  }
+  
+  return (<div>
     <Home/>
-    <First/>
+    <First
+    scroll={scroll}
+    // handleScroll={handleScroll}
+    />
     <About/>
     <Skills/>
-    <Second/>
+    <Second
+    scroll={scroll}
+    />
     <Projects/>
     <Contact/>
   </div>
-)
+)}
 
 
 ReactDOM.render(

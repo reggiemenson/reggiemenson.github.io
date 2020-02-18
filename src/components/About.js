@@ -4,11 +4,11 @@ import React, { useState } from 'react'
 const About = () => {
 
 
-  return (<section className="section about-section" id="profile">
+  return (<section className="section about-section">
     <div className="tile is-ancestor">
       <div className="tile is-vertical">
         <div className="tile is-parent about tile-top">
-          <div className="tile is-child is-paddingless">
+          <div className="tile is-child is-paddingless intro">
             <figure className="image is-square">
               <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
                 width="65" height="65" viewBox="0 0 334.000000 336.000000"
@@ -38,7 +38,7 @@ const About = () => {
                 </g>
               </svg>
             </figure>
-            <h3 className="title">Profile</h3>
+            <h3 className="title">Introduction</h3>
             <p>
               My work with retail websites and analytics has meant gradual exposure to code through tracking tags and web content styling. I grew to be fascinated by the logic behind JavaScript which in turn inspired my curiosity in how tech affected user solutions. I’ve looked to develop my coding ability ever since!
             </p>
@@ -48,7 +48,7 @@ const About = () => {
           </div>
         </div>
         <div className="horizontal"></div>
-        <div className="tile">
+        <div className="tile about-panel">
           <div className="tile is-parent about tile-left">
             <div className="tile is-child">
               <figure className="image is-square">
@@ -107,11 +107,12 @@ const About = () => {
               </figure>
               <h3 className="subtitle">Education</h3>
               <ul>
-                <li>University of Cape Town<br />
-                  Bachelor of Arts: English and Media & Writing
-                </li>
                 <li>
-                  General Assembly, Software Engineering Immersive
+                  <span className="institution">General Assembly</span><br/>
+                  Software Engineering Immersive
+                </li>
+                <li><span className="institution">University of Cape Town</span><br />
+                  Bachelor of Arts: English and Media & Writing
                 </li>
               </ul>
             </div>

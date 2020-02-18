@@ -8,7 +8,7 @@ const Skills = () => {
     <div className="tile is-ancestor">
       <div className="tile is-vertical">
         <div className="tile is-parent skills">
-          <div className="tile is-child">
+          <div className="tile is-child header">
             <figure className="image is-square">
               <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
                   width="65" height="65" viewBox="0 0 334.000000 332.000000"
