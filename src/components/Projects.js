@@ -128,7 +128,7 @@ const Projects = () => {
                   <div className="card">
                     <div className="card-image">
                       <figure className="image is-4by3">
-                        <img src="./top-image/tripbit-cropped.png" alt="tripbit-logo" />
+                        <img src="./top-image/tripbit-map.png" alt="tripbit-logo" />
                       </figure>
                     </div>
                     <div className="card-content">
@@ -251,7 +251,7 @@ const Projects = () => {
                   <div className="card">
                     <div className="card-image">
                       <figure className="image is-4by3">
-                        <img src="./top-image/park-my-bike.png" alt="park-my-bike-logo" />
+                        <img src="./top-image/park-my-bike(large).png" alt="park-my-bike-logo" />
                       </figure>
                     </div>
                     <div className="card-content">
