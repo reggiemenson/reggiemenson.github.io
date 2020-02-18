@@ -2,7 +2,7 @@ import React from 'react'
 
 const Second = (scroll) => {
 
-  return (<section className="hero is-fullheight">
+  return (<section id="projects" className="hero is-fullheight">
     <div className="hero-body">
       <div className="container">
       <svg id="project-logo" className={scroll.scroll>2500 ? "draw-project" : ""} width="511" height="141" viewBox="0 0 511 141" fill="none" xmlns="http://www.w3.org/2000/svg">

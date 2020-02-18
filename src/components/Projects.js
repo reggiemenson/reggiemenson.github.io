@@ -38,14 +38,19 @@ const Projects = () => {
   }
 
   return (
-    <div className="section" id="projects">
+    <div className="section">
       <div className="container">
 
         <div className="columns">
-          <div className="column is-half">
+          <div className="column">
             <div className="tile project-tile">
               <div className="tile is-child project-header">
-                <figure className="image is-square">
+
+              <div class="columns">
+  <div class="column is-one-quarter empty">
+  </div>
+  <div class="column is-two-quarters">
+  <figure className="image is-square">
                 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
                     width="65" height="65" viewBox="0 0 336.000000 336.000000"
                     preserveAspectRatio="xMidYMid meet">
@@ -82,12 +87,16 @@ const Projects = () => {
                     </g>
                   </svg>
                 </figure>
-                {/* <div className="title project-title">
-                  Projects
-                </div> */}
+                <h3 className="subtitle">Online</h3>
                 <p>
                   As part of the immersive course taken at General Assembly, I have been able to create a few projects utilising the languages and frameworks I'm familiar with.
                 </p>
+  </div>
+  <div class="column is-one-quarter empty">
+  </div>
+</div>
+
+                
               </div>
             </div>
 

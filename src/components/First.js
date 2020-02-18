@@ -2,8 +2,7 @@ import React from 'react'
 
 const First = (scroll) => {
 
-  return (<section className="hero is-fullheight">
-    {console.log(scroll.scroll)}
+  return (<section id="profile" className="hero is-fullheight">
     <div className="hero-body">
       <div className="container">
         <svg id="profile-logo" className={scroll.scroll>300 ? "draw-logo" : ""} width="417" height="119" viewBox="0 0 417 119" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -246,6 +246,18 @@ svg.main-logo {
 
 //tiles
 
+.institution {
+  font-weight: bold;
+}
+
+div.intro {
+  text-align: center;
+  // text-align: justify;
+  p {
+    text-align: justify;
+  }
+}
+
 div.about-panel {
   height: 100%;
 }
@@ -262,9 +274,13 @@ div.tile.is-parent.skills {
 
 //-------skills---
 
-.sub-skills {
-  padding-left: 0.5rem;
+.header {
+  text-align: center;
 }
+
+// .sub-skills {
+//   padding-left: 0.5rem;
+// }
 
 .frontend-box {
   border-right: 0.3rem solid black;
@@ -276,6 +292,7 @@ div.tile.is-parent.skills {
 
 .skill-cat {
   padding-bottom: 3rem;
+  text-align: center;
 }
 
 .skill-icon {
@@ -331,6 +348,13 @@ div.tech-display {
 }
 
 // -------project-title
+
+div.project-header {
+  text-align: center;
+  p {
+    text-align: justify;
+  }
+}
 
 div.project-title {
   padding: 0 1em 1em 0;

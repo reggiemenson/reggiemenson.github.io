@@ -4,11 +4,11 @@ import React, { useState } from 'react'
 const About = () => {
 
 
-  return (<section className="section about-section" id="profile">
+  return (<section className="section about-section">
     <div className="tile is-ancestor">
       <div className="tile is-vertical">
         <div className="tile is-parent about tile-top">
-          <div className="tile is-child is-paddingless">
+          <div className="tile is-child is-paddingless intro">
             <figure className="image is-square">
               <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
                 width="65" height="65" viewBox="0 0 334.000000 336.000000"
@@ -107,11 +107,12 @@ const About = () => {
               </figure>
               <h3 className="subtitle">Education</h3>
               <ul>
-                <li>University of Cape Town<br />
-                  Bachelor of Arts: English and Media & Writing
-                </li>
                 <li>
-                  General Assembly, Software Engineering Immersive
+                  <span className="institution">General Assembly</span><br/>
+                  Software Engineering Immersive
+                </li>
+                <li><span className="institution">University of Cape Town</span><br />
+                  Bachelor of Arts: English and Media & Writing
                 </li>
               </ul>
             </div>
