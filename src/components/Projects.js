@@ -162,7 +162,7 @@ const Projects = () => {
                         </div>
                       </div>
                       <div className="content descrip">
-                        Our final project full-stack app, built with a React.js frontend and a Django/Python backend.
+                        Our final project full-stack app - built with a React.js frontend and a Django/Python backend.
                         <br/>
                         <br/>
                       </div>
