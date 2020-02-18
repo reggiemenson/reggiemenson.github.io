@@ -90,45 +90,134 @@ svg.main-logo {
   padding-top: 0;
 }
 
-//--------------test-------------//
+//--------------profile-letters-------------//
 
 #profile-logo {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  animation: fill 0.5s ease forwards 2.5s;
 
   path:nth-child(1){
     stroke-dasharray: 523.50px;
     stroke-dashoffset: 523.50px;
-    animation: draw 2s ease forwards;
   }
   path:nth-child(2){
     stroke-dasharray: 350.02;
     stroke-dashoffset: 350.02;
-    animation: draw 2s ease forwards 0.3s;
   }
   path:nth-child(3){
     stroke-dasharray: 412.46;
     stroke-dashoffset: 412.46;
-    animation: draw 2s ease forwards 0.6s;
   }
   path:nth-child(4){
     stroke-dasharray: 685.05;
     stroke-dashoffset: 685.05;
-    animation: draw 2s ease forwards 0.9s;
   }
   path:nth-child(5){
     stroke-dasharray: 304.72;
     stroke-dashoffset: 304.72;
-    animation: draw 2s ease forwards 1.2s;
   }
   path:nth-child(6){
     stroke-dasharray: 424.01;
     stroke-dashoffset: 424.01;
+  }
+}
+
+.draw-logo {
+  animation: fill 0.5s ease forwards 2.5s;
+
+  path:nth-child(1){
+    animation: draw 2s ease forwards;
+  }
+  path:nth-child(2){
+    animation: draw 2s ease forwards 0.3s;
+  }
+  path:nth-child(3){
+    animation: draw 2s ease forwards 0.6s;
+  }
+  path:nth-child(4){
+    animation: draw 2s ease forwards 0.9s;
+  }
+  path:nth-child(5){
+    animation: draw 2s ease forwards 1.2s;
+  }
+  path:nth-child(6){
     animation: draw 2s ease forwards 1.5s;
   }
+
+}
+
+//--------------project-letters-------------//
+
+#project-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  path:nth-child(1){
+    stroke-dasharray: 523.50px;
+    stroke-dashoffset: 523.50px;
+  }
+  path:nth-child(2){
+    stroke-dasharray: 350.02;
+    stroke-dashoffset: 350.02;
+  }
+  path:nth-child(3){
+    stroke-dasharray: 412.46;
+    stroke-dashoffset: 412.46;
+  }
+  path:nth-child(4){
+    stroke-dasharray: 318.36;
+    stroke-dashoffset: 318.36;
+  }
+  path:nth-child(5){
+    stroke-dasharray: 424.01;
+    stroke-dashoffset: 424.01;
+  }
+  path:nth-child(6){
+    stroke-dasharray: 351.59;
+    stroke-dashoffset: 351.59;
+  }
+  path:nth-child(7){
+    stroke-dasharray: 348.07;
+    stroke-dashoffset: 348.07;
+  }
+  path:nth-child(8){
+    stroke-dasharray: 418.51;
+    stroke-dashoffset: 418.51;
+  }
+}
+
+.draw-project {
+  animation: fill 0.5s ease forwards 3.1s;
+
+  path:nth-child(1){
+    animation: draw 2s ease forwards;
+  }
+  path:nth-child(2){
+    animation: draw 2s ease forwards 0.3s;
+  }
+  path:nth-child(3){
+    animation: draw 2s ease forwards 0.6s;
+  }
+  path:nth-child(4){
+    animation: draw 2s ease forwards 0.9s;
+  }
+  path:nth-child(5){
+    animation: draw 2s ease forwards 1.2s;
+  }
+  path:nth-child(6){
+    animation: draw 2s ease forwards 1.5s;
+  }
+  path:nth-child(7){
+    animation: draw 2s ease forwards 1.8s;
+  }
+  path:nth-child(8){
+    animation: draw 2s ease forwards 2.1s;
+  }
+
 }
 
 //-----------------------------------HOME------------------------------------------------//

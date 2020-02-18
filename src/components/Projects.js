@@ -82,9 +82,9 @@ const Projects = () => {
                     </g>
                   </svg>
                 </figure>
-                <div className="title project-title">
+                {/* <div className="title project-title">
                   Projects
-                </div>
+                </div> */}
                 <p>
                   As part of the immersive course taken at General Assembly, I have been able to create a few projects utilising the languages and frameworks I'm familiar with.
                 </p>
