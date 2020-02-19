@@ -57,7 +57,7 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-            <div className="column">
+            {/* <div className="column">
               <div className="tile is-ancester is-vertical">
                 <div className="tile is-parent">
                   <div className="tile is-child">
@@ -70,7 +70,7 @@ const Contact = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className="column">
               <div className="tile is-ancester is-vertical">
                 <div className="tile is-parent">

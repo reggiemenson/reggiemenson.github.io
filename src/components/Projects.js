@@ -285,7 +285,6 @@ const Projects = () => {
                       </div>
                       <div className="content descrip">
                         A React.js app built for a class Hackathon. The project uses class structures and makes use of two APIs.
-                        <br/>
                       </div>
                       <div className="tech-display">{tech3}</div>
                     </div>
