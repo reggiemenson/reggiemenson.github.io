@@ -46,9 +46,9 @@ const Contact = () => {
                 <div className="tile is-parent">
                   <div className="tile is-child">
                     <div className="content has-text-centered">
-                      <a href="https://github.com/mr-anansi" target="_blank" rel="noopener noreferrer">
+                      <a href="https://github.com/reggiemenson" target="_blank" rel="noopener noreferrer">
                         <i className="skills-icon devicon-github-plain fa-2x"/>
-                        <span className="social">github.com/mr-anansi</span>
+                        <span className="social">github.com/reggiemenson</span>
                       </a>  
                     </div>
                   </div>
