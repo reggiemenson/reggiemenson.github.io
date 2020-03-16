@@ -162,7 +162,7 @@ const Projects = () => {
                         </div>
                       </div>
                       <div className="content descrip">
-                        {/* Our final project full-stack app - built with a React.js frontend and a Django/Python backend. */}
+                        Our final project full-stack app - built with a React.js frontend and a Django/Python backend.
                         <br/>
                         <br/>
                       </div>
@@ -227,7 +227,7 @@ const Projects = () => {
                       <div className="content descrip">
                         Our first full stack app - built with a React.js frontend and an Node/Express backend. Components were created with React Hooks.
                       </div>
-                      <div className="tech-display">{tech4}</div>
+                      <div className="content tech-display">{tech4}</div>
                     </div>
                     <div className="card-footer">
                       <div className="card-footer-item tech-used">
