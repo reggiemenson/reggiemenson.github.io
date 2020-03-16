@@ -122,9 +122,9 @@ const Projects = () => {
           </div>
 
           <Slider>
-            <div className="columns">
+            {/* <div className="columns"> */}
               <Slide index={0}>
-                <div className="column">
+                {/* <div className="column card-col"> */}
                   <div className="card">
                     <div className="card-image">
                       <figure className="image is-4by3">
@@ -162,7 +162,7 @@ const Projects = () => {
                         </div>
                       </div>
                       <div className="content descrip">
-                        Our final project full-stack app - built with a React.js frontend and a Django/Python backend.
+                        {/* Our final project full-stack app - built with a React.js frontend and a Django/Python backend. */}
                         <br/>
                         <br/>
                       </div>
@@ -184,10 +184,10 @@ const Projects = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                {/* </div> */}
               </Slide>
               <Slide index={1}>
-                <div className="column">
+                {/* <div className="column card-col"> */}
                   <div className="card">
                     <div className="card-image">
                       <figure className="image is-4by3">
@@ -244,10 +244,10 @@ const Projects = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                {/* </div> */}
               </Slide>
               <Slide index={2}>
-                <div className="column">
+                {/* <div className="column card-col"> */}
                   <div className="card">
                     <div className="card-image">
                       <figure className="image is-4by3">
@@ -299,10 +299,10 @@ const Projects = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                {/* </div> */}
               </Slide>
               <Slide index={3}>
-                <div className="column">
+                {/* <div className="column card-col"> */}
                   <div className="card">
                     <div className="card-image">
                       <figure className="image is-4by3">
@@ -355,10 +355,10 @@ const Projects = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                {/* </div> */}
               </Slide>
               <Slide index={4}>
-                <div className="column">
+                {/* <div className="column card-col"> */}
                   <div className="card">
                     <div className="card-image">
                       <figure className="image is-4by3">
@@ -410,9 +410,9 @@ const Projects = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                {/* </div> */}
               </Slide>
-            </div>
+            {/* </div> */}
           </Slider>
         </CarouselProvider>
 

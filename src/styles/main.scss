@@ -339,13 +339,26 @@ div.tech-display {
 //cards
 
 .card {
-  min-height: 30em;
+  // min-height: 30em;
   height: 100%;
 }
 
-.media {
-  height: 5em;
+div.card-image {
+  height: 50%;
 }
+
+div.card-content {
+  height: 45%;
+}
+
+div.card-footer {
+  height: 5%;
+}
+
+
+// .media {
+//   height: 5em;
+// }
 
 // -------project-title
 
@@ -365,7 +378,7 @@ div.project-tile {
 }
 
 .tech-used {
-  padding: 10px;
+  padding: 2%;
 }
 
 //-----------project----//
