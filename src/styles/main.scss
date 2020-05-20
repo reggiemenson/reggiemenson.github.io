@@ -596,15 +596,16 @@ div.title.main {
 
 }
 
+
 @media only screen and (max-width: 800px) {
   svg.main-logo {
     opacity: 0.4;
   }
-
+  
   .vertical {
     display: none; 
   }
-
+  
   .frontend-box {
     border-right: none
   }
@@ -612,6 +613,15 @@ div.title.main {
   .backend-box {
     border-right: none;
   }
+  
+}
 
+//------DESKTOP-------///
+
+@media only screen and (min-height: 780px) {
+
+  .vertical {
+    display: none; 
+  }
 
 }
