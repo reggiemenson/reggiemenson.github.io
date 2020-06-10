@@ -28,18 +28,18 @@ const App = () => {
   return (<div>
     <Home/>
     <First
-    scroll={scroll}
+      scroll={scroll}
     // handleScroll={handleScroll}
     />
     <About/>
     <Skills/>
     <Second
-    scroll={scroll}
+      scroll={scroll}
     />
     <Projects/>
     <Contact/>
-  </div>
-)}
+  </div>)
+}
 
 
 ReactDOM.render(
