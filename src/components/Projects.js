@@ -40,7 +40,6 @@ const Projects = () => {
   return (
     <div className="section">
       <div className="container">
-        {console.log(screen.width)}
         <div className="columns">
           <div className="column">
             <div className="tile project-tile">
