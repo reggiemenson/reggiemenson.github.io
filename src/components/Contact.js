@@ -41,47 +41,29 @@ const Contact = () => {
         </div>
         <div className="column">
           <div className="columns">
-            <div className="column">
+            <div className="column foot-links">
               <div className="tile is-ancester is-vertical">
                 <div className="tile is-parent">
                   <div className="tile is-child">
                     <div className="content has-text-centered">
-                      {/* <p> */}
-                        <a href="https://github.com/mr-anansi" target="_blank" rel="noopener noreferrer">
-                          <i className="skills-icon devicon-github-plain fa-2x"/>
-                          <span className="social">github.com/mr-anansi</span>
-                        </a>  
-                      {/* </p> */}
+                      <a href="https://github.com/reggiemenson" target="_blank" rel="noopener noreferrer">
+                        <i className="skills-icon devicon-github-plain fa-2x"/>
+                        <span className="social">github.com/reggiemenson</span>
+                      </a>  
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="column">
+            <div className="column foot-links">
               <div className="tile is-ancester is-vertical">
                 <div className="tile is-parent">
                   <div className="tile is-child">
                     <div className="content has-text-centered">
-                      <i className="skills-icon fas fa-envelope fa-2x"></i>
-                      <span className="social">
-                        mrmenson@gmail.com
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="column">
-              <div className="tile is-ancester is-vertical">
-                <div className="tile is-parent">
-                  <div className="tile is-child">
-                    <div className="content has-text-centered">
-                      {/* <p> */}
-                        <a href="https://linkedin.com/in/reggiemenson" target="_blank" rel="noopener noreferrer">
-                          <i className="skills-icon fab fa-linkedin fa-2x"/>
-                          <span className="social">linkedin.com/in/reggiemenson</span>
-                        </a>
-                      {/* </p> */}
+                      <a href="https://linkedin.com/in/reggiemenson" target="_blank" rel="noopener noreferrer">
+                        <i className="skills-icon fab fa-linkedin fa-2x"/>
+                        <span className="social">linkedin.com/in/reggiemenson</span>
+                      </a>
                     </div>
                   </div>
                 </div>

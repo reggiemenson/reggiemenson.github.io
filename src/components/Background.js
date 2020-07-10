@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Image = () => {
-  return (<svg className="main-logo" version="1.0" xmlns="http://www.w3.org/2000/svg"
+  return (<svg className="main-logo test-svg" version="1.0" xmlns="http://www.w3.org/2000/svg"
     width="100%" height="100%" viewBox="0 0 726.000000 1280.000000"
     preserveAspectRatio="xMidYMid meet">
     <metadata>
@@ -10,6 +10,7 @@ const Image = () => {
     </metadata>
     <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)"
       fill="#000000" stroke="none">
+      
       <path d="M3425 10290 c-3 -5 -5 -123 -4 -260 1 -138 0 -253 -3 -256 -3 -3 -42
       -14 -86 -24 -179 -43 -376 -154 -514 -291 -43 -42 -78 -81 -78 -86 0 -5 14
       -19 31 -32 l30 -23 83 79 c134 129 283 217 436 257 36 10 73 20 83 22 16 5 17

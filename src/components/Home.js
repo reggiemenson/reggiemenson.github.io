@@ -48,7 +48,6 @@ const Home = () => {
     <div className="hero-body">
       <div className="container">
         <div className="title main">
-          {/* Bold and enlarge first name */}
           <span className="first">Reggie</span> Tachie-Menson
           <div className="underline"></div>
         </div>

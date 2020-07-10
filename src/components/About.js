@@ -40,10 +40,13 @@ const About = () => {
             </figure>
             <h3 className="title">Introduction</h3>
             <p>
-              My work with retail websites and analytics has meant gradual exposure to code through tracking tags and web content styling. I grew to be fascinated by the logic behind JavaScript which in turn inspired my curiosity in how tech affected user solutions. I’ve looked to develop my coding ability ever since!
+              My experience with data, retail websites and analytics resulted in the gradual exposure to code in my day-to-day. I grew to be fascinated by the logic behind JavaScript which in turn inspired my curiosity in how tech affected user solutions. I’ve looked to develop my coding ability ever since!
             </p>
             <p>
-              I was educated in the area of digital media and content writing for publication. Coming from a media background has helped me keep the way in which a message is delivered in mind when dealing with an audience. This approach aided my input in digital roles and I expanded my skills by delving into the creation of websites for content as well as SEO and analytical tools.
+              I remain fascinated by growing businesses as a whole and endeavour to learn as much about the many processes that form a great product. My commercial work as a Python engineer allows me to combine creative process, problem solving and the business logic that underpins these organisations.
+            </p>
+            <p>
+              Take a look at some of the mini-projects that I’ve been involved with further below; in some cases, as an individual and in others, alongside some talented colleagues and friends. If you’d like to get in contact, check out my <a href="#contact">contact details</a> at the bottom of the page.
             </p>
           </div>
         </div>

@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import ReactDOM from 'react-dom'
-// import { HashRouter, Switch, Route } from 'react-router-dom'
 
 import Home from './components/Home'
 import About from './components/About'
@@ -28,18 +27,17 @@ const App = () => {
   return (<div>
     <Home/>
     <First
-    scroll={scroll}
-    // handleScroll={handleScroll}
+      scroll={scroll}
     />
     <About/>
     <Skills/>
     <Second
-    scroll={scroll}
+      scroll={scroll}
     />
     <Projects/>
     <Contact/>
-  </div>
-)}
+  </div>)
+}
 
 
 ReactDOM.render(
