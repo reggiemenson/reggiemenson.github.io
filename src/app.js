@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react'
 import ReactDOM from 'react-dom'
 
-import Home from './components/Home'
+import Home from './components/Hero'
 import About from './components/About'
 import Projects from './components/Projects'
-import Contact from './components/Contact'
+import Contact from './components/Footer'
 import Skills from './components/Skills'
-import First from './components/First'
-import Second from './components/Second'
+import First from './components/FirstDraw'
+import Second from './components/SecondDraw'
 
 
 import 'bulma'
@@ -19,24 +19,25 @@ const App = () => {
   useEffect(() => {
     window.addEventListener('scroll', handleScroll)
   }, [])
-  
+
   function handleScroll() {
     setScroll(window.scrollY)
   }
-  
+
   return (<div>
-    <Home/>
+    <Home />
     <First
       scroll={scroll}
     />
-    <About/>
-    <Skills/>
+    <About />
+    <Skills />
     <Second
       scroll={scroll}
     />
-    <Projects/>
-    <Contact/>
-  </div>)
+    <Projects />
+    <Contact />
+  </div>
+  )
 }
 
 

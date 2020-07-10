@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Image from './Background'
+import Image from './svg/Background'
 
 const Home = () => {
   const handleMenu = () => {
@@ -52,7 +52,7 @@ const Home = () => {
           <div className="underline"></div>
         </div>
         <p className="subtitle">
-          Junior Developer
+          Software Developer
         </p>
       </div>
     </div>
