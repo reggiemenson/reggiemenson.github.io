@@ -2,8 +2,8 @@
   "name": "reggie",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/mr-anansi/mr-anansi.github.io.git",
-  "author": "kwaku <44327202+mr-nansi@users.noreply.github.com>",
+  "repository": "https://github.com/reggiemenson/reggiemenson.github.io.git",
+  "author": "reggiemenson <44327202+reggiemenson@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
