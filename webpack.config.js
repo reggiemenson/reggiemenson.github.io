@@ -1,38 +1,46 @@
-const path = require('path')
-const webpack = require('webpack')
-const HtmlWebpackPlugin = require('html-webpack-plugin')
+const path = require("path");
+const webpack = require("webpack");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-  entry: './src/app.js',
+  mode: "production",
+  entry: "./src/app.js",
   output: {
-    filename: 'bundle.js',
-    path: path.resolve('')
+    filename: "bundle.js",
+    path: path.resolve(""),
   },
   module: {
     rules: [
-      { test: /\.jsx?$/, loader: 'babel-loader', exclude: /node_modules/ },
-      { test: /\.css$/, loader: ['style-loader', 'css-loader'] },
-      { test: /\.s(a|c)ss$/, loader: ['style-loader', 'css-loader', 'sass-loader'] },
-      { test: /\.(jpg|png|gif)/, use: [{
-        loader: 'url-loader', options: { limit: 5000 }
-      }] }
-    ]
+      { test: /\.jsx?$/, loader: "babel-loader", exclude: /node_modules/ },
+      { test: /\.css$/, use: ["style-loader", "css-loader"] },
+      {
+        test: /\.s(a|c)ss$/,
+        use: ["style-loader", "css-loader", "sass-loader"],
+      },
+      {
+        test: /\.(jpg|png|gif)/,
+        use: [
+          {
+            loader: "url-loader",
+            options: { limit: 5000 },
+          },
+        ],
+        type: "javascript/auto",
+      },
+    ],
   },
   devServer: {
-    contentBase: path.resolve('src'),
+    static: { directory: path.resolve("src") },
     hot: true,
     open: true,
     port: 8000,
-    watchContentBase: true, 
-    historyApiFallback: true
-
+    historyApiFallback: true,
   },
   plugins: [
-    new webpack.HotModuleReplacementPlugin(),
     new HtmlWebpackPlugin({
-      template: 'src/index.html',
-      filename: 'index.html',
-      inject: 'body'
-    })
-  ]
-}
+      template: "src/index.html",
+      filename: "index.html",
+      inject: "body",
+    }),
+  ],
+};
