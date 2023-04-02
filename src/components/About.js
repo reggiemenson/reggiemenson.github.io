@@ -15,17 +15,28 @@ const About = () => {
                 <UserIcon />
               </figure>
               <h3 className="title">Introduction</h3>
+              <p className="">Welcome to my site!</p>
+              <br />
               <p>
-                This is an old site with some contact details and projects past.
-                I will update it at some point...
+                A long time ago, I started a journey that began with me writing
+                as a young contributor in finance and the markets. I then
+                proceeded to take on the challenge of entrepreneurship,
+                ultimately using that experience to guide my work today,
+                choosing to focus on making impactful contributions to business
+                development through technology.
               </p>
+              <br />
               <p>
-                Take a look at some of the mini-projects that I’ve been involved
-                with further below; in some cases, as an individual and in
-                others, alongside some talented colleagues and friends. If you’d
-                like to get in contact, check out my{" "}
-                <a href="#contact">contact details</a> at the bottom of the
-                page.
+                If you'd like to speak more about potential opportunities to
+                take a look at the <a href="#contact">contact section</a> at the
+                bottom of the page. You may find more detail on past work and
+                snippets of hobby work from time to time on my profiles.
+              </p>
+              <br />
+              <p>
+                Take a look at some of the early mini-projects that I’ve been
+                involved with further below; in some cases, as an individual and
+                in others, alongside some talented colleagues and friends.
               </p>
             </div>
           </div>
@@ -49,29 +60,6 @@ const About = () => {
                     Bachelor of Arts: English and Media & Writing
                   </li>
                 </ul>
-              </div>
-            </div>
-            <div className="vertical"></div>
-            <div className="tile is-parent about tile-right">
-              <div className="tile is-child">
-                <figure className="image is-square">
-                  <IndustryIcon />
-                </figure>
-                <h3 className="subtitle">Industry Experience</h3>
-                <div className="columns is-mobile">
-                  <div className="column">
-                    <i className="far fa-newspaper fa-4x"></i>
-                    <h5>Media</h5>
-                  </div>
-                  <div className="column">
-                    <i className="fas fa-archive fa-4x"></i>
-                    <h5>Data Storage</h5>
-                  </div>
-                  <div className="column">
-                    <i className="fas fa-shopping-cart fa-4x"></i>
-                    <h5>Online Retail</h5>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
